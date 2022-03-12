@@ -1,30 +1,37 @@
-![banner](https://raw.githubusercontent.com/LuckFire/amoled-cord/main/assets/readme/banner.png) 
+![banner](https://raw.githubusercontent.com/CroiDev/TEMACRO-U/main/ativos/leiame/TEMACRO-U.gif) 
 
-# AMOLED-Cord
-A simple, no-bullshit AMOLED theme that's nice on your eyes. Lights out baby!
+# TEMACRO U
+Simples, tema sem estravagancias e ajuda a não cansar tanto a vista.
 
-![preview](https://raw.githubusercontent.com/LuckFire/amoled-cord/main/assets/readme/main-preview.png)
+Prévia em breve.
+<!--![previa](link da previa)-->
 
-## Installation
-For **[Powercord](http://powercord.dev/)** or **[Vizality](https://vizality.com/)** installation, head over to your **Themes folder -> open a terminal of choice**, and paste / enter the following:
+## Instalação
+Para instalar no **[Powercord](http://powercord.dev/)** ou no **[Vizality](https://vizality.com/)**, vá para a sua **Pasta de Temas -> abra um terminal de sua escolha** e cole / digite o seguinte:
 ```
-git clone https://github.com/LuckFire/amoled-cord
+git clone https://github.com/CroiDev/TEMACRO-U
 ```
 
 **[BetterDiscord](https://betterdiscord.app/)**
 <!-- - [Direct Download](https://betterdiscord.net/ghdl?id=3625) -->
-- [Direct Download](https://github.com/LuckFire/amoled-cord/releases/download/temp-bd-download/AMOLED-Cord.theme.css) <!-- temporary direct download -->
-- [View Source](https://luckfire.github.io/amoled-cord/src/support/compiled.css)
+- [Baixar direto](https://github.com/CroiDev/TEMACRO-U/releases/download/v1.0.0/TEMACRO-U.theme.css) <!-- link temporario -->
+- [Ver a fonte](https://croidev.github.io/TEMACRO-U/cdf/support/compilado.css)
 
-**Stylus**
-1. Make sure you have the Stylus browser extension installed.
+**[Stylus](https://github.com/openstyles/stylus)**
+1. Certifique-se de ter a extensão do navegador Stylus instalada.
     - **[Chrome Webstore](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)**
-    - **[Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)**
-2. After installing, head over to [this link](https://luckfire.github.io/amoled-cord/src/support/AMOLED-Cord.user.css).
-3. Press the "Install Style" button.
+    - **[Opera Addons](https://addons.opera.com/pt-br/extensions/details/stylus/)**
+    - **[Firefox Addons](https://addons.mozilla.org/pt-BR/firefox/addon/styl-us/)**
+2. Após a instalação, acesse [esse link](https://croidev.github.io/TEMACRO-U/cdf/support/TEMACRO-U.user.css).
+3. Pressione o botão "Instalar estilo".
 
-# Credits
-- **[NYRI4](https://github.com/NYRI4/Discolored)** for [Discolored](https://github.com/NYRI4/Discolored).
-- **[Snapperito](https://github.com/Snapperito/)** for [Settings Icons](https://github.com/snappercord/Settings-Icons).
-- File structuring ideas from **[Slate](https://github.com/DiscordStyles/Slate)** and **[Nebula](https://github.com/Loremly/Nebula)**.
-- **[LayneTheEpic](https://github.com/laynetheepic)** for their **[Theme Fixer](https://laynetheepic.github.io/projects/pc-theme-converter/)**
+## Creditos
+
+### Base
+- **[LuckFire](https://github.com/LuckFire)** por [AMOLED-Cord](https://github.com/LuckFire/AMOLED-Cord)
+
+### Outros
+- **[NYRI4](https://github.com/NYRI4)** por [Discolored](https://github.com/NYRI4/Discolored).
+- **[Snapperito](https://github.com/Snapperito/)** por [Ícones de configurações](https://github.com/snappercord/Settings-Icons).
+- Idéias de estruturação de arquivos originais de **[Slate](https://github.com/DiscordStyles/Slate)** e **[Nebula](https://github.com/Loremly/Nebula)**.
+- **[LayneTheEpic](https://github.com/laynetheepic)** para eles **[Theme Fixer](https://laynetheepic.github.io/projects/pc-theme-converter/)**
