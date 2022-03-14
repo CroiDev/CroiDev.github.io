@@ -58,6 +58,7 @@ Setinha da categoria
 .scroller-kQBbkU::-webkit-scrollbar{
     width: 5px;
     border-radius: 7px;
+    border-color: #FF0000;
     background: var(--background-primary);
 
 }
