@@ -77,15 +77,11 @@ Setinha da categoria
 
 
 }*/
-/*Funda das barras de rolagem*/
-/*.scrollerBase-_bVAAt::-webkit-scrollbar-track{
-    width: 4px;
-    background: #0F0F0F;
-}
+
 .peopleList-2VBrVI::-webkit-scrollbar{
     background: #ffff00;
 
-}*/
+}
 /*Aqui é a cor da onde fica aquelas setinhas da barra de rolagem*/
 /*.scroller-kQBbkU::-webkit-scrollbar{
     width: 10px;
@@ -101,19 +97,24 @@ Setinha da categoria
 }
 */
 /*Fundo da barra de rolagems*/
-/*.scrollerBase-_bVAAt::-webkit-scrollbar-track,
+.scrollerBase-_bVAAt::-webkit-scrollbar-track,
 .peopleList-2VBrVI::-webkit-scrollbar-track,
 .scroller-kQBbkU::-webkit-scrollbar-track,
 .scroller-3j5xK2::-webkit-scrollbar-track{
     display: flex !important;
     background: #080808;
-}*/
+}
+/*Funda das barras de rolagem*/
+.scrollerBase-_bVAAt::-webkit-scrollbar-track{
+    width: 4px;
+    background: var(--scroller-track);
+}
 /*"Botão" que roda na barra de rolagem*/
-/*.scroller-3X7KbA::-webkit-scrollbar-thumb {
-    background: #080808;
+.scroller-3X7KbA::-webkit-scrollbar-thumb {
+    background: var(--scroller-thumb);
     border: #0F0F0F !important
 }
-*/
+
 
 .theme-dark {
     --header-primary: #fff;
