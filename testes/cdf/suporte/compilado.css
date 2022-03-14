@@ -20,7 +20,7 @@
 }
 */
 
-
+/*Marca dagua do Discord*/
 .wordmark-2u86JB > svg {
 display: none
 }
@@ -32,8 +32,25 @@ padding: 0 6px;
 height: calc(100% + 4px);
 top: -4px;
 width: fit-content;
-font-size: 16px;
+font-size: 14px;
 font-weight: bold;
+}
+
+
+.scrollableContainer-15eg7h {
+  border: solid 1px !important;
+  animation: rainbow 3s linear 0s infinite normal !important;
+}
+@keyframes rainbow {
+    0%    {color: #ff0000}
+    12%   {color: #ffbf00}
+    25%   {color: #80ff00}
+    37%   {color: #00ff40}
+    50%   {color: #00ffff}
+    62%   {color: #0040ff}
+    75%   {color: #8000ff}
+    87%   {color: #eb34bd}
+    100%  {color: #ff0000}
 }
 
 
