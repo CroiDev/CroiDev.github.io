@@ -76,12 +76,12 @@ Setinha da categoria
 /*.scroller-kQBbkU, .auto-2K3UW5, .scrollerBase-_bVAAt, .disableScrollAnchor-6TwzvM, .managedReactiveScroller-1lEEh3{
 
 
-}*/
+
 
 .peopleList-2VBrVI::-webkit-scrollbar{
     background: #ffff00;
 
-}
+}}*/
 /*Aqui é a cor da onde fica aquelas setinhas da barra de rolagem*/
 /*.scroller-kQBbkU::-webkit-scrollbar{
     width: 10px;
@@ -101,6 +101,7 @@ Setinha da categoria
 .peopleList-2VBrVI::-webkit-scrollbar-track,
 .scroller-kQBbkU::-webkit-scrollbar-track,
 .scroller-3j5xK2::-webkit-scrollbar-track{
+    max-width: 4px;
     display: flex !important;
     background: #080808;
 }
