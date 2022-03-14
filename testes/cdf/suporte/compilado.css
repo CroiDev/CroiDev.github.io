@@ -57,7 +57,7 @@ Setinha da categoria
 }
 */
 
-/*Cor do 'Hover' da @Menção e do fundo dela (não do fundo da msg)*/
+/*Cor do 'Hover' da @Menção e do fundo dela (não do fundo da msg) -*/
 #app-mount .interactive:hover {
     color: #FFF;
     background-color: #5865F2;
