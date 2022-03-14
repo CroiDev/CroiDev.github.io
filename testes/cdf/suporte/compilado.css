@@ -6,7 +6,7 @@
     padding-right: 10px;
 }
 .slateTextArea-27tjG0 {
-    caret-color: #00ff00;
+    caret-color: #57F287;
     position: absolute;
     left: 0;
     right: 10px;
@@ -24,9 +24,11 @@
     -moz-user-select: text;
     -ms-user-select: text;
     user-select: text;
-    color: #ff0000;
+    color: #ED4245;
     font-weight: 400;
 }
+
+/*TEXTO GERAL*/
 .overflow-1wOqNV{
     color: #ff0000;
 }
