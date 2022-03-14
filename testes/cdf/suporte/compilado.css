@@ -49,14 +49,19 @@ Setinha da categoria
     Background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
-#app-mount .wrapper-1ZcZW- {
+
+/*Cor da @menção e do fundo do @ (não do fundo da msg)*/
+/*#app-mount .wrapper-1ZcZW- {
     background: #00FF00;
     color: #FF0000;
 }
+*/
 
+/*Cor do 'Hover' da @Menção e do fundo dela (não do fundo da msg)*/
 #app-mount .interactive:hover {
-    color: #00fffF;
-    background-color: #FF4242;
+    color: #FFF;
+    background-color: #5865F2;
+    box-shadow: 2px 2px 2px #5865F2;
 }
 
 /*.content .flex-spacer, .content > .ui-flex {
