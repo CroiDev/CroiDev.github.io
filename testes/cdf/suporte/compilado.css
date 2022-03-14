@@ -62,6 +62,7 @@ Setinha da categoria
     color: #FFF;
     background-color: #5865F2;
     box-shadow: 7px 0px 0px #5865F2;
+    overflow-x: hidden;
 }
 
 /*.content .flex-spacer, .content > .ui-flex {
