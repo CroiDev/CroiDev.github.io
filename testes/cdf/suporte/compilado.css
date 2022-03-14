@@ -36,6 +36,8 @@ font-size: 14px;
 font-weight: bold;
 }
 
+/*Ocultar botão de ouvir junto no Spotify*/
+.buttonsWrapper-2ARRp1 {display: none;}
 
 /*Remover stiker do formulario*/
 .stickerButton-1-nFh2 {
