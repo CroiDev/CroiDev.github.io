@@ -1,56 +1,29 @@
-/* Hide member list */
-:root {
-  --hover-animation-speed: 0.35s;
-  --seperator-color: var(--background-accent);
+.fontSize16Padding-XoMpjI {
+    padding-bottom: 11px;
+    padding-top: 11px;
 }
-.membersWrap-2h-GB4 {
-  min-width: unset;
-  width: 50px;
-  justify-content: right;
+.placeholder-1_mJY1, .slateTextArea-27tjG0 {
+    padding-right: 10px;
 }
-.members-1998pB {transition: transform var(--hover-animation-speed);}
-.membersWrap-2h-GB4:hover .members-1998pB {transform: translateX(-190px);}
-.membersWrap-2h-GB4 .membersGroup-v9BXpm::after {
-  content: '';
-  width: 30px;
-  height: 2px;
-  border-radius: 50px;
-  background: unset;
-  background-color: var(--seperator-color);
-  position: absolute;
-  left: -36px;
-  top: 29px;
-  margin-left: 0px;
+.slateTextArea-27tjG0 {
+    caret-color: #00ff00;
+    position: absolute;
+    left: 0;
+    right: 10px;
+    text-align: left;
+    word-break: break-word;
+    white-space: break-spaces!important;
 }
-.membersWrap-2h-GB4 .members-1998pB .member-3-YXUe {
-  background-color: unset;
-  margin-left: 0px;
-  transition: margin-left var(--hover-animation-speed);
-}
-.membersWrap-2h-GB4:hover .members-1998pB .member-3-YXUe {margin-left: 8px;}
-.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {transform: translateX(-6px);}
-.membersWrap-2h-GB4 .membersGroup-v9BXpm {
-  cursor: default;
-  transform: translateX(45px);
-  transition: transform var(--hover-animation-speed);
-  overflow: visible;
-}
-
-.markup-eYLPri .slateTextArea-27tjG0 .fontSize16Padding-XoMpjI{
-	content: "";
-	font-size: 0;
-}
-.markup-eYLPri .slateTextArea-27tjG0 .fontSize16Padding-XoMpjI{
-	content: "Foda-se";
-	font-size: 20px;
-}
-
-.member-3-YXUe[user_by_bdfdb="289112759948410881"] .nameAndDecorators-5FJ2dg::after {
-    content: "";
-    
-    width: 16px;
-    height: 16px;
-    margin-left: 4px;
-    
-    background: url("https://cdn.discordapp.com/emojis/694418553662865428.png?v=1") center / 100% 100%;
+.markup-eYLPri {
+    font-size: 1rem;
+    line-height: 1.375rem;
+    white-space: pre-wrap;
+    white-space: break-spaces;
+    word-wrap: break-word;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    color: #ff0000;
+    font-weight: 400;
 }
