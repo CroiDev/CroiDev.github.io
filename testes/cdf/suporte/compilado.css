@@ -25,13 +25,16 @@
     -moz-user-select: text;
     -ms-user-select: text;
     user-select: text;
-    color: #72767d;
+    color: #dcddde;
     font-weight: 400;
 }
 
 /*TEXTO GERAL*/
 .overflow-1wOqNV{
     color: #72767d;
+}
+.overflow-1wOqNV: active{
+    color: #dcddde;
 }
 
 /*Setinha da categoria*/
