@@ -54,26 +54,26 @@ Setinha da categoria
     background: rgba(0,0,0,0.7);
 }
 */
-.scroller-NXV0-d {
+/*.scroller-NXV0-d {
     padding-bottom: 20px;
     background: rgba(0,0,0,0.4);
-}
+}*/
 
-.scroller-kQBbkU, .auto-2K3UW5, .scrollerBase-_bVAAt, .disableScrollAnchor-6TwzvM, .managedReactiveScroller-1lEEh3{
+/*.scroller-kQBbkU, .auto-2K3UW5, .scrollerBase-_bVAAt, .disableScrollAnchor-6TwzvM, .managedReactiveScroller-1lEEh3{
 
 
-}
+}*/
 /*Funda das barras de rolagem*/
-.scrollerBase-_bVAAt::-webkit-scrollbar-track{
+/*.scrollerBase-_bVAAt::-webkit-scrollbar-track{
     width: 4px;
     background: #0F0F0F;
 }
 .peopleList-2VBrVI::-webkit-scrollbar{
     background: #ffff00;
 
-}
+}*/
 /*Aqui é a cor da onde fica aquelas setinhas da barra de rolagem*/
-.scroller-kQBbkU::-webkit-scrollbar{
+/*.scroller-kQBbkU::-webkit-scrollbar{
     width: 10px;
     border-radius: 7px;
     border-color: #FF0000;
@@ -85,7 +85,7 @@ Setinha da categoria
     background: #0000ff;
     display: flex !important;
 }
-
+*/
 /*Fundo da barra de rolagems*/
 /*.scrollerBase-_bVAAt::-webkit-scrollbar-track,
 .peopleList-2VBrVI::-webkit-scrollbar-track,
