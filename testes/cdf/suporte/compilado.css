@@ -73,8 +73,8 @@ Setinha da categoria
     --background-accent: var(--background-secondary-alt);
     --background-floating: #0C0C0C;
     --background-nested-floating: #2f3136;
-    --background-mobile-primary: #36393f;
-    --background-mobile-secondary: #2f3136;
+    --background-mobile-primary: var(--background-primary);
+    --background-mobile-secondary: var(--background-secondary);
     --background-modifier-hover: rgba(79,84,92,0.16);
     --background-modifier-active: rgba(79,84,92,0.24);
     --background-modifier-selected: rgba(79,84,92,0.32);
@@ -113,7 +113,7 @@ Setinha da categoria
     --spoiler-hidden-background: #202225;
     --deprecated-card-bg: rgba(32,34,37,0.6);
     --deprecated-card-editable-bg: rgba(32,34,37,0.3);
-    --deprecated-store-bg: #36393f;
+    --deprecated-store-bg: var(--background-primary);
     --deprecated-quickswitcher-input-background: #72767d;
     --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
     --deprecated-text-input-bg: rgba(0,0,0,0.1);
