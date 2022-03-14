@@ -45,16 +45,18 @@ Setinha da categoria
 
 /*.scroller-kQBbkU .auto-2K3UW5 .scrollerBase-_bVAAt .disableScrollAnchor-6TwzvM .managedReactiveScroller-1lEEh3*/
 
+/*Funda das barras de rolagem*/
 .scrollerBase-_bVAAt::-webkit-scrollbar-track{
-    width: 10px;
-    background: #ff0000;
+    width: 5px;
+    background: #0F0F0F;
 }
 .peopleList-2VBrVI::-webkit-scrollbar{
     background: #ffff00;
 
 }
+/*Aqui é a cor da onde fica aquelas setinhas da barra de rolagem*/
 .scroller-kQBbkU::-webkit-scrollbar{
-    background: #00ff00;
+    background: #0F0F0F;
 
 }
 .scroller-3j5xK2::-webkit-scrollbar-thumb{
