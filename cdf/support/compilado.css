@@ -7,7 +7,7 @@
     --background-accent: var(--background-secondary-alt);
     --channeltextarea-background: rgb(15, 15, 15);
     --searcharea-background: var(--background-secondary);
-    --channels-default: #8b8b8b;
+    --channels-default: #8b8b8b;  
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
     --text-normal: #dcddde;
@@ -745,7 +745,8 @@ body #app-mount .theme-light .root-g14mjS .input-m1-Y7Q {
 .contentWrapper-3vHNP2 .categoryItemDefaultCategorySelected-2YeRUu:hover,
 .emojiPicker-6YCk8a .categoryItemDefaultCategorySelected-2YeRUu,
 .emojiPicker-6YCk8a .categoryItemDefaultCategorySelected-2YeRUu:hover {
-    background-color: var(--background-secondary-alt);
+   /* background-color: var(--background-secondary-alt);*/
+      background-color: #FF0000;
 }
 .contentWrapper-3vHNP2 .inspector-DFKXwB,
 .emojiPicker-6YCk8a .inspector-DFKXwB {
