@@ -43,8 +43,15 @@ Setinha da categoria
 }
 */
 
-/*.scroller-kQBbkU .auto-2K3UW5 .scrollerBase-_bVAAt .disableScrollAnchor-6TwzvM .managedReactiveScroller-1lEEh3*/
+.channels-3g2vYe{
+    Background-color: transparent !important;
+}
 
+
+.scroller-kQBbkU, .auto-2K3UW5, .scrollerBase-_bVAAt, .disableScrollAnchor-6TwzvM, .managedReactiveScroller-1lEEh3{
+
+
+}
 /*Funda das barras de rolagem*/
 .scrollerBase-_bVAAt::-webkit-scrollbar-track{
     width: 5px;
