@@ -52,6 +52,12 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
     --sides-blur: 5px;
 }
 
+
+.menu-1QACrS .styleFixed-2_NfVL{
+    background: url('https://i.imgur.com/qtvHixi.jpg') cover !important;
+
+}
+
 .scroller-1bVxF5 .thin-31rlnD .scrollerBase-_bVAAt{
     background: url('https://i.imgur.com/qtvHixi.jpg');
     position: relative;
@@ -62,7 +68,9 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
 }
-
+.scroller-1bVxF5 {
+    padding: 6px 8px;
+}
 
 
 .fontSize16Padding-XoMpjI {
