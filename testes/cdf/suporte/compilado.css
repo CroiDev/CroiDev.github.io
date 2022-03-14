@@ -1,3 +1,63 @@
+
+/* Variaveis padrões */
+/*
+:root {
+    --chat-transparency:0.8;
+    --sides-transparency:0.9;
+    --sides-blur:5px;
+}
+.theme-dark {
+    --color-primary:54,57,63;
+    --color-secondary:47,49,54;
+    --color-secondary-alt:41,43,47;
+    --color-tertiary:32,34,37;
+}
+.theme-light {
+    --color-primary:255,255,255;
+    --color-secondary:242,243,245;
+    --color-secondary-alt:235,237,239;
+    --color-tertiary:227,229,232;
+}
+*/
+
+
+/* Geral */
+body, .app-2CXKsg, .bg-1QIAus {background:transparent}
+#app-mount {background:var(--background) center/cover no-repeat}
+#app-mount>.app-3xd6d0>:not(.app-2CXKsg) {background:rgba(var(--color-primary),var(--chat-transparency))!important;backdrop-filter:blur(var(--sides-blur))}
+:focus {outline:none}
+.enterDone-menWZ8>.verification-2oQUwN {background:rgba(var(--color-primary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
+#app-mount>.errorPage-2pZ2Kq {background-color:rgba(var(--color-secondary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
+.artwork-L5TAwQ {display:none}
+
+/* Canais e amigos */
+#app-mount .sidebar-1tnWFu, .notice-1x8lm- {border-radius:0}
+.sidebar-1tnWFu {background:transparent}
+.sidebar-1tnWFu {backdrop-filter:blur(var(--sides-blur))}
+.container-1NXEtd {background:rgba(var(--color-secondary),var(--sides-transparency))}
+
+
+/* Conversas */
+.chat-2ZfjoI, .container-3XgAHv {background:transparent} /* Chat and threads chat */
+.chatContent-3KubbW, .chat-1rZYgu {background:rgba(var(--color-primary),var(--chat-transparency))} /* Chat and threads chat */
+#app-mount .form-3gdLxP:before {display:none} /* Small thing left to text input */
+.wrapper-3HVHpV, .wrapper-15CKyy {background:transparent} /* Messages not loading */
+.content-3spvdd {background:transparent;backdrop-filter:blur(5px)} /* New day divider */
+
+
+:root {
+    --background: url('https://i.imgur.com/rn0AlMm.jpg');
+    --chat-transparency: 0.8;
+    --sides-transparency: 0.9;
+    --sides-blur: 5px;
+}
+
+
+
+
+
+
+
 .fontSize16Padding-XoMpjI {
     padding-bottom: 11px;
     padding-top: 11px;
@@ -69,15 +129,6 @@ Setinha da categoria
     background-color: #5865F2;
     box-shadow: 0px 0px 6px #5865F2;
     text-decoration: none;
-}
-
-@import url("https://dav1312.github.io/BD/SimpleBackground/main.css");
-
-:root {
-    --background: url('https://i.imgur.com/nuCy4Ql.jpg');
-    --chat-transparency: 0.8;
-    --sides-transparency: 0.9;
-    --sides-blur: 5px;
 }
 
 
