@@ -52,7 +52,9 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
     --sides-blur: 5px;
 }
 
-
+.scroller-1bVxF5 .thin-31rlnD .scrollerBase-_bVAAt{
+    background: var(--background);
+}
 
 
 
