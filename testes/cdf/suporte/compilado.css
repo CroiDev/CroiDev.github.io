@@ -37,6 +37,21 @@ font-weight: bold;
 }
 
 
+
+/* Canais e amigos */
+#app-mount .sidebar-1tnWFu, .notice-1x8lm- {border-radius:0}
+.sidebar-1tnWFu {background:transparent}
+.sidebar-1tnWFu {backdrop-filter:blur(var(--sides-blur2))}
+.container-1NXEtd {background:rgba(var(--color-secondary),var(--sides-transparency2))}
+
+:root {
+    --color-secondary2: url('https://i.imgur.com/TgjYbMX.png');
+    --sides-transparency2: 0.9;
+    --sides-blur2: 7px;
+}
+
+
+/*borda da area de enviar mensagens*/
 .scrollableContainer-15eg7h {
   border: solid 1px !important;
   animation: rainbow 3s linear 0s infinite normal !important;
@@ -64,11 +79,11 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 .artwork-L5TAwQ {display:none}
 
 /* Canais e amigos */
-#app-mount .sidebar-1tnWFu, .notice-1x8lm- {border-radius:0}
+/*#app-mount .sidebar-1tnWFu, .notice-1x8lm- {border-radius:0}
 .sidebar-1tnWFu {background:transparent}
 .sidebar-1tnWFu {backdrop-filter:blur(var(--sides-blur))}
 .container-1NXEtd {background:rgba(var(--color-secondary),var(--sides-transparency))}
-
+*/
 
 /* Conversas */
 .chat-2ZfjoI, .container-3XgAHv {background:transparent} /* Chat and threads chat */
