@@ -23,7 +23,7 @@
 
 /* Geral */
 body, .app-2CXKsg, .bg-1QIAus {background:transparent}
-#app-mount {background:var(--background) center/cover no-repeat}
+#app-mount {background:var(--background) center/cover repeat}
 #app-mount>.app-3xd6d0>:not(.app-2CXKsg) {background:rgba(var(--color-primary),var(--chat-transparency))!important;backdrop-filter:blur(var(--sides-blur))}
 :focus {outline:none}
 .enterDone-menWZ8>.verification-2oQUwN {background:rgba(var(--color-primary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
