@@ -53,10 +53,15 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 }
 
 .scroller-1bVxF5 .thin-31rlnD .scrollerBase-_bVAAt{
-    background: var(--background);
+    background: url('https://i.imgur.com/qtvHixi.jpg');
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
 }
-
-
 
 
 
