@@ -35,3 +35,13 @@
   transition: transform var(--hover-animation-speed);
   overflow: visible;
 }
+
+.textArea-12jD-V .placeholder-37qJjk{
+    content:"";
+    font-size:0;
+}
+
+.textArea-12jD-V .placeholder-37qJjk:before {
+  content: "Foda-se";
+  font-size:20px;
+}
