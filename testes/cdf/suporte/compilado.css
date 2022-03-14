@@ -136,6 +136,8 @@ Setinha da categoria
     --info-help-foreground: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
     --info-help-text: #fff;
     --status-warning-text: #000;
+    --scroller-thumb: rgb(30, 30, 30);
+    --scroller-track: rgb(10, 10, 10);
     --scrollbar-thin-thumb: #202225;
     --scrollbar-thin-track: transparent;
     --scrollbar-auto-thumb: #202225;
