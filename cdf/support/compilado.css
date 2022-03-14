@@ -417,7 +417,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 }
 
 .theme-light #app-mount::after {
-    content: "This theme is NOT meant to be used in Light Mode. Please switch over to Dark Mode in Settings -> Appearance.";
+    content: "Este tema NÃO deve ser usado no modo claro. Por favor, mude para o modo escuro em Configurações -> Aparência.";
     position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -724,8 +724,7 @@ body #app-mount .theme-light .root-g14mjS .input-m1-Y7Q {
     background-color: var(--background-secondary-alt);
 }
 #app-mount .autocomplete-3NRXG8 .categoryHeader-OpJ1Ly {
-    /*background-color: var(--background-tertiary);*/
-    background-color: #FF0000;
+    background-color: var(--background-tertiary);
 }
 #app-mount .autocomplete-3NRXG8 .wrapper-3z7DuG, #app-mount .autocomplete-3NRXG8 .wrapper-22rqw6 {
     background-color: var(--background-tertiary);
