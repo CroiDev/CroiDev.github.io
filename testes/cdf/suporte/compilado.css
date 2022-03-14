@@ -156,7 +156,7 @@ Setinha da categoria
     --interactive-hover: #dcddde;
     --interactive-active: #fff;
     --interactive-muted: #4f545c;
-    --background-primary: #1C1C1C;
+    --background-primary: rgba(28,28,28, 0.4);
     --background-secondary: #141414;
     --background-secondary-alt: #161616;
     --background-tertiary: #0A0A0A;
