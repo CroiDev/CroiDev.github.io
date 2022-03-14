@@ -56,6 +56,8 @@ Setinha da categoria
 }
 /*Aqui é a cor da onde fica aquelas setinhas da barra de rolagem*/
 .scroller-kQBbkU::-webkit-scrollbar{
+    width: 5px;
+    border-radius: 10px;
     background: var(--background-primary);
 
 }
