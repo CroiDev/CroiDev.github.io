@@ -45,7 +45,8 @@ Setinha da categoria
 
 /*.scroller-kQBbkU .auto-2K3UW5 .scrollerBase-_bVAAt .disableScrollAnchor-6TwzvM .managedReactiveScroller-1lEEh3*/
 
-.scrollerBase-_bVAAt::-webkit-scrollbar{
+.scrollerBase-_bVAAt::-webkit-scrollbar-track{
+    width: 10px;
     background: #ff0000;
 }
 .peopleList-2VBrVI::-webkit-scrollbar{
@@ -56,7 +57,7 @@ Setinha da categoria
     background: #00ff00;
 
 }
-.scroller-3j5xK2::-webkit-scrollbar{
+.scroller-3j5xK2::-webkit-scrollbar-thumb{
     background: #0000ff;
     display: flex !important;
 }
