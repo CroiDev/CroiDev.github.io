@@ -45,6 +45,22 @@ Setinha da categoria
 
 /*.scroller-kQBbkU .auto-2K3UW5 .scrollerBase-_bVAAt .disableScrollAnchor-6TwzvM .managedReactiveScroller-1lEEh3*/
 
+.scrollerBase-_bVAAt::-webkit-scrollbar,
+.peopleList-2VBrVI::-webkit-scrollbar,
+.scroller-kQBbkU::-webkit-scrollbar,
+.scroller-3j5xK2::-webkit-scrollbar{
+    display: flex !important;
+    background: #0F0F0F;
+}
+.scrollerBase-_bVAAt::-webkit-scrollbar-track,
+.peopleList-2VBrVI::-webkit-scrollbar-track,
+.scroller-kQBbkU::-webkit-scrollbar-track,
+.scroller-3j5xK2::-webkit-scrollbar-track{
+    display: flex !important;
+    background: #141414;
+}
+
+
 
 .theme-dark {
     --header-primary: #fff;
