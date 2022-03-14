@@ -60,9 +60,8 @@ Setinha da categoria
 /*Cor do 'Hover' da @Menção e do fundo dela (não do fundo da msg) -*/
 #app-mount .interactive:hover {
     color: #FFF;
+    text-shadow: 4px 0px 0px;
     background-color: #5865F2;
-    box-shadow: 7px 0px 0px #5865F2;
-    overflow-x: hidden;
 }
 
 /*.content .flex-spacer, .content > .ui-flex {
