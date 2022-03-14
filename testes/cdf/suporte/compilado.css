@@ -45,8 +45,9 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 .content-3spvdd {background:transparent;backdrop-filter:blur(5px)} /* New day divider */
 
 
+/*Cor do canal ativo*/
 .modeSelected-3DmyhH{
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.1);
     border-left: 4px solid #5865f2;
 }
 
@@ -54,6 +55,7 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
     border-left: 4px solid #C2C2C2;
 }
 
+/*Cor dos retangulos dos canais*/
 #app-mount .content-1gYQeQ{
     background-color: transparent;
     margin: 0;
