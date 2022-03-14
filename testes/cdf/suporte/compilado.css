@@ -65,7 +65,7 @@ Setinha da categoria
 }
 /*Funda das barras de rolagem*/
 .scrollerBase-_bVAAt::-webkit-scrollbar-track{
-    width: 5px;
+    width: 4px;
     background: #0F0F0F;
 }
 .peopleList-2VBrVI::-webkit-scrollbar{
@@ -81,6 +81,7 @@ Setinha da categoria
 
 }
 .scroller-3j5xK2::-webkit-scrollbar-thumb{
+    width: 4px;
     background: #0000ff;
     display: flex !important;
 }
