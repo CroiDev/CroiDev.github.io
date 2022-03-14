@@ -13,7 +13,7 @@
     text-align: left;
     word-break: break-word;
     white-space: break-spaces!important;
-}
+/*}
 /*A cor do texto que ta aqui muda a cor do texto nas conversas*/
 .markup-eYLPri {
     font-size: 1rem;
@@ -40,7 +40,7 @@
 /*Setinha da categoria*/
 .mainContent-uDGa6R{
     color: #72767d;
-}
+}*/
 
 .theme-dark {
     --header-primary: #fff;
