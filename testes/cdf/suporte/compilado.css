@@ -49,6 +49,15 @@ Setinha da categoria
     Background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
+#app-mount .wrapper-1ZcZW- {
+    background: #00FF00;
+    color: #FF0000;
+}
+
+#app-mount .interactive:hover {
+    color: #00fffF;
+    background-color: #FF4242;
+}
 
 /*.content .flex-spacer, .content > .ui-flex {
     background: rgba(0,0,0,0.7);
