@@ -1,0 +1,11 @@
+@-moz-document domain("discord.com") {
+    /* ==UserStyle==
+    @name         TEMACRO Testes
+    @description  Um tema para testes.
+    @author       Croi
+    @namespace    github.com/CroiDev/TEMACRO-Testes
+    @version      1.0.0
+    ==/UserStyle== */
+
+    @import url("https://croidev.github.io/testes/cdf/suporte/compilado.css");
+}
