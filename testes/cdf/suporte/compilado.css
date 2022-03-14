@@ -45,10 +45,19 @@ Setinha da categoria
 
 /*.scroller-kQBbkU .auto-2K3UW5 .scrollerBase-_bVAAt .disableScrollAnchor-6TwzvM .managedReactiveScroller-1lEEh3*/
 
-.scrollerBase-_bVAAt::-webkit-scrollbar,
-.peopleList-2VBrVI::-webkit-scrollbar,
-.scroller-kQBbkU::-webkit-scrollbar,
+.scrollerBase-_bVAAt::-webkit-scrollbar{
+    background: #ff0000;
+}
+.peopleList-2VBrVI::-webkit-scrollbar{
+    background: #ffff00;
+
+}
+.scroller-kQBbkU::-webkit-scrollbar{
+    background: #00ff00;
+
+}
 .scroller-3j5xK2::-webkit-scrollbar{
+    background: #0000ff;
     display: flex !important;
 }
 
@@ -61,11 +70,11 @@ Setinha da categoria
     background: #080808;
 }*/
 /*"Botão" que roda na barra de rolagem*/
-.scroller-3X7KbA::-webkit-scrollbar-thumb {
+/*.scroller-3X7KbA::-webkit-scrollbar-thumb {
     background: #080808;
     border: #0F0F0F !important
 }
-
+*/
 
 .theme-dark {
     --header-primary: #fff;
