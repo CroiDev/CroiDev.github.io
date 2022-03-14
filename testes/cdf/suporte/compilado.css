@@ -37,6 +37,16 @@ font-weight: bold;
 }
 
 
+/*Remover stiker do formulario*/
+.stickerButton-1-nFh2 {
+  display: none;
+}
+
+/*Remover presente do formulario*/
+.buttons-uaqb-5>.button-f2h6uQ:not(.BD-TeX-plugin-button)> :not(.translateButton-DhP9x8) {
+  display: none;
+}
+
 
 /* Canais e amigos */
 #app-mount .sidebar-1tnWFu, .notice-1x8lm- {border-radius:0}
