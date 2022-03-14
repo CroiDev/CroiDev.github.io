@@ -71,6 +71,16 @@ Setinha da categoria
     text-decoration: none;
 }
 
+@import url("https://dav1312.github.io/BD/SimpleBackground/main.css");
+
+:root {
+    --background: url('https://i.imgur.com/nuCy4Ql.jpg');
+    --chat-transparency: 0.8;
+    --sides-transparency: 0.9;
+    --sides-blur: 5px;
+}
+
+
 /*.content .flex-spacer, .content > .ui-flex {
     background: rgba(0,0,0,0.7);
 }
