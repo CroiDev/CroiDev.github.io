@@ -53,16 +53,17 @@ Setinha da categoria
 }
 
 /*Fundo da barra de rolagems*/
-.scrollerBase-_bVAAt::-webkit-scrollbar-track,
+/*.scrollerBase-_bVAAt::-webkit-scrollbar-track,
 .peopleList-2VBrVI::-webkit-scrollbar-track,
 .scroller-kQBbkU::-webkit-scrollbar-track,
 .scroller-3j5xK2::-webkit-scrollbar-track{
     display: flex !important;
     background: #080808;
-}
+}*/
 /*"Botão" que roda na barra de rolagem*/
 .scroller-3X7KbA::-webkit-scrollbar-thumb {
-border:2px solid #0F0F0F !important
+    background: #080808;
+    border: #0F0F0F !important
 }
 
 
