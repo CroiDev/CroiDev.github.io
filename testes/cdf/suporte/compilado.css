@@ -46,7 +46,8 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 
 
 .modeSelected-3DmyhH{
-  border-left: 4px solid #5865f2;
+    background: rgba(255, 255, 255, 0.4);
+    border-left: 4px solid #5865f2;
 }
 
 .modeSelected-3DmyhH:hover{
@@ -54,9 +55,9 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 }
 
 #app-mount .content-1gYQeQ{
-  background-color: transparent;
-  margin: 0;
-  border-radius: 0;
+    background-color: transparent;
+    margin: 0;
+    border-radius: 0;
 }
 
 :root {
