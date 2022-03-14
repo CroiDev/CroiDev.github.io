@@ -528,6 +528,8 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     margin-left: 13px;
     color: #6b6b6b;
 }
+.wordmark.wordmark-2iDDfm > svg {display:none}
+.wordmark-2iDDfm:after {content:'Discroid'}
 
 .container-2o3qEW, .membersWrap-3NUR2t {
     background-color: var(--background-primary);
