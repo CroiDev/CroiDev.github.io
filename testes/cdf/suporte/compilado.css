@@ -63,6 +63,7 @@ Setinha da categoria
     text-shadow: 0px 0px 4px;
     background-color: #5865F2;
     box-shadow: 0px 0px 4px #5865F2;
+    text-decoration: none;
 }
 
 /*.content .flex-spacer, .content > .ui-flex {
