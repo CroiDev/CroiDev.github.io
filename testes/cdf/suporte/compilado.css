@@ -115,6 +115,23 @@ Setinha da categoria
     border: #0F0F0F !important
 }
 
+.managedReactiveScroller-1lEEh3 {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.disableScrollAnchor-6TwzvM {
+    overflow-anchor: none;
+}
+.scrollerBase-_bVAAt {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
 
 .theme-dark {
     --header-primary: #fff;
