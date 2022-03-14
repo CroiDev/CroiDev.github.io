@@ -50,6 +50,15 @@ Setinha da categoria
 }
 
 
+/*.content .flex-spacer, .content > .ui-flex {
+    background: rgba(0,0,0,0.7);
+}
+*/
+.scroller-NXV0-d {
+    padding-bottom: 20px;
+    background: rgba(0,0,0,0.4);
+}
+
 .scroller-kQBbkU, .auto-2K3UW5, .scrollerBase-_bVAAt, .disableScrollAnchor-6TwzvM, .managedReactiveScroller-1lEEh3{
 
 
