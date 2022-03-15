@@ -53,13 +53,13 @@ rolesList-3uZoaa {
   height: auto;
   padding: 6px 8px;
   border-radius: 4px;
-  gap: 4px;
+  gap: 8px;
   position: relative;
   overflow: hidden;
 }
 .role-2TIOKu:hover .roleCircle-1EgnFN {
   width: 100%;
-  opacity: 0;
+  opacity: 1;
 }
 .role-2TIOKu:hover .roleCircle-1EgnFN:not(:empty) ~ .roleName-2ZJJYR {
   margin-left: 22px;
