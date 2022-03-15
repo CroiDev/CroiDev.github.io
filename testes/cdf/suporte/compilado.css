@@ -92,6 +92,9 @@ rolesList-3uZoaa {
   height: 16px;
 }
 
+.container-q97qHp{
+    color: #5865F2;
+}
 
 /* Mostrar hora da mensagem editada */
 .timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
