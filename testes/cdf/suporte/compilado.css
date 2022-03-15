@@ -46,7 +46,7 @@ div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
 */
 
 /*CARGOS EXTRAVAGANTES*/
-rolesList-3uZoaa {
+/*rolesList-3uZoaa {
   gap: 8px;
 }
 .role-2TIOKu {
@@ -91,7 +91,18 @@ rolesList-3uZoaa {
   width: 16px;
   height: 16px;
 }
+*/
 
+/*Outro estilo para os cargos*/
+.role-2TIOKu{background: transparent;border: 1px solid;border-radius: 11px;}
+.roleCircle-1EgnFN {margin-left: 0;}
+.addButton-1_dZYu.role-2TIOKu {border-color: #4f545c;}
+.addButtonIcon-3HZ_2f {width: 10px;height: 10px;}
+
+
+
+
+/*Cor das categorias*/
 .container-q97qHp{
     color: #5865F2;
     text-shadow: 0px 0px 4px #5865F2;
@@ -124,12 +135,12 @@ body {background: transparent !important;}
 /*Ocultar botão de ouvir junto no Spotify*/
 .buttonsWrapper-2ARRp1 {display: none;}
 
-/*Remover stiker do formulario*/
+/*Remover stiker da barra de enviar mensagens*/
 .stickerButton-1-nFh2 {
   display: none;
 }
 
-/*Remover presente do formulario*/
+/*Remover presente da barra de enviar mensagens*/
 .buttons-uaqb-5>.button-f2h6uQ:not(.BD-TeX-plugin-button)> :not(.translateButton-DhP9x8) {
   display: none;
 }
