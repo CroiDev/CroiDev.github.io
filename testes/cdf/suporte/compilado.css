@@ -36,11 +36,6 @@ font-size: 14px;
 font-weight: bold;
 }
 
-/*Corrigir embeds do YT e Twitch*/
-.embedVideoImageComponent-3Clc3C {
-    justify-content: unset;
-    align-items: unset;
-}
 
 /*Lista de usuarios modo Hover*/
 /*.membersWrap-3NUR2t {min-width: unset;}
@@ -113,14 +108,14 @@ rolesList-3uZoaa {
 }
 
 /*Deixar borda da janela do Discord arredondada*/
-#app-mount {
+/*#app-mount {
     overflow: hidden;
-    border-radius: 10px; /* Change this value */
+    border-radius: 10px; 
 }
 
 body {background: transparent !important;}
 
-
+*/
 
 /*Ocultar botão de ouvir junto no Spotify*/
 .buttonsWrapper-2ARRp1 {display: none;}
