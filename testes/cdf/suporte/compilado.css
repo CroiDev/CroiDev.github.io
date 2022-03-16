@@ -97,15 +97,18 @@ div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
 .role-2TIOKu{background: transparent;border: 1px solid;border-radius: 11px;}
 .roleCircle-1EgnFN {margin-left: 0;}
 .addButton-1_dZYu.role-2TIOKu {border-color: #4f545c;}
-.addButtonIcon-3HZ_2f {width: 10px;height: 10px;}
+.addButtonIcon-3HZ_2f {width: 10px;height: 10px;} 
 
 
+
+/* Tornar o titulo do PermissionsViewer mais familiar ao Discord */
+.member-perms-title{text-transform:uppercase;color:var(--header-secondary);font-weight:700;margin-bottom:8px;font-size:12px;}
 
 
 /*Cor das categorias*/
 .container-q97qHp{
     color: #5865F2;
-    text-shadow: 0px 0px 4px #5865F2;
+    text-shadow: 0px 0px 2px #5865F2;
 }
 
 /* Mostrar hora da mensagem editada */
