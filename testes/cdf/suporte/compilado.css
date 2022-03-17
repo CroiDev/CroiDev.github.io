@@ -162,7 +162,7 @@ body {background: transparent !important;}
 }
 
 
-/*borda da area de enviar mensagens*/
+/*borda da area de enviar mensagens arcoiris*/
 .scrollableContainer-15eg7h {
   border: solid 1px !important;
   animation: rainbow 5s linear 0s infinite normal !important;
@@ -179,6 +179,26 @@ body {background: transparent !important;}
     100%  {color: #ff0000}
 }
 
+/* Usuario ID Arcoiris */
+.subtext-2HDqJ7,
+.customStatus-1UAQAK,
+.hovered-20u3oh,
+.title-338goq {
+    background-image: linear-gradient(to left,#00FF00, #FFD700, #FF0000, #EE00FF, #1065F2, #00FF00;
+    animation: gradient-border 5s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    z-index: 1;
+}
+@keyframes gradient-border {
+from {
+  background-position: 0 0;
+}
+to {
+  background-position: 100% 0;
+}
+}
 
 /* Geral */
 body, .app-2CXKsg, .bg-1QIAus {background:transparent}
