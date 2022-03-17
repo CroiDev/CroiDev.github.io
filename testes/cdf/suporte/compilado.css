@@ -200,6 +200,10 @@ to {
 }
 }
 
+/*Redesign do plugin BetterInvites*/
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
+
+
 /* Geral */
 body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 #app-mount {background:var(--background) center/cover repeat}
