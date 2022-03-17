@@ -264,6 +264,10 @@ Ajuda a evitar acidentes, convidando pessoas sem querer*/
 
 }
 
+/*Texto de seleção com cor personalizada*/
+::selection {
+    background-color: red;
+}
 
 /*SUBSTITUIR O TEXTO LONGO DOS LINKS DE MSG POR UMA MENSAGEM MENOR*/
 /* One by David. */
