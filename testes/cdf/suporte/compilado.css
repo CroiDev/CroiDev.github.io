@@ -230,6 +230,16 @@ to {
 }
 
 
+/* Remove a caixa que diz que você não tem permisões para mandar msg */
+.channelTextAreaDisabled-8rmlrp, .channelTextAreaDisabled-8rmlrp > .scrollableContainer-2NUZem{
+  animation: nochat .000001ms forwards;
+}
+@keyframes nochat{
+  to{height: 0}
+}
+/* Remove o cartaz de seguir na parte inferior dos canais*/
+.wrapper-39oAo3 {display: none;}
+
 
 /* Geral */
 body, .app-2CXKsg, .bg-1QIAus {background:transparent}
