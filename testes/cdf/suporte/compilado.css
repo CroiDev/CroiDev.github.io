@@ -36,8 +36,9 @@ font-size: 14px;
 font-weight: bold;
 }
 
-/*Notificaçaozinha na parte superior ocupado toda a largura*/
-#app-mount .app-2CXKsg::before {
+/*Notificaçaozinha na parte superior ocupando toda a largura*/
+/*Versão desatualizada*/
+/*#app-mount .app-2CXKsg::before {
 z-index:9999;
 text-align: center;
   content: "Sua versão do TEMACRO está desatualizada. Baixe a versão mais recente!";
@@ -47,7 +48,7 @@ text-align: center;
   color: #fff;
   font-weight: 500;
 }
-
+*/
 
 /*Lista de usuarios modo Hover*/
 /*.membersWrap-3NUR2t {min-width: unset;}
