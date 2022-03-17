@@ -257,6 +257,13 @@ Ajuda a evitar acidentes, convidando pessoas sem querer*/
   display: none;
 }
 
+/*Menu de contexto - botão direito*/
+.menu-3sdvDG{
+    background: rgba(10, 10, 10, 7);
+    filter: blur(6px);
+
+}
+
 
 /*SUBSTITUIR O TEXTO LONGO DOS LINKS DE MSG POR UMA MENSAGEM MENOR*/
 /* One by David. */
