@@ -203,6 +203,33 @@ to {
 /*Redesign do plugin BetterInvites*/
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
 
+/*Remove a marca de verificado nas conexões*/
+.connectedAccountNameInner-2q3MVf .connectedAccountVerifiedIcon-2cA82O {display: none;}
+
+/* Remove o grampo da seção Sobre mim no popout do usuário, adiciona um pergaminho a ele, define-o para uma altura definida.
+(Limite do Discord é de 6 linhas, dps disso ele corta e adc: ...)
+
+ */
+.clamped-2ZePhX{
+    -webkit-line-clamp: 190; /*Maximum amount of characters as new lines, unset just breaks links*/
+    max-height:112px;
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+.clamped-2ZePhX::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.clamped-2ZePhX::-webkit-scrollbar-track {
+  border-radius: 10px; /*How round you want the scrollbar to be. 0 is square, 10px is round.*/
+  background-color: rgb(255 255 255 / 10%); /*Edit this to what color you want the track to be.*/
+}
+.clamped-2ZePhX::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #00aeff, #a68eff); /* Edit this to whatever color/colors you'd like*/
+  border-radius: 10px; /*How round you want the scrollbar thumb to be. 0 is square, 10px is round.*/
+}
+
+
 
 /* Geral */
 body, .app-2CXKsg, .bg-1QIAus {background:transparent}
