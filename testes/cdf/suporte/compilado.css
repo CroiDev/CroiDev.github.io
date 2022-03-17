@@ -251,6 +251,13 @@ rect[fill^="#ED4245"] {fill: red}
 rect[fill^="#FFFFFF"] {fill: white}
 
 
+/*Esconde o botão "Convidar para o servidor do menu de contexto do usuario
+Ajuda a evitar acidentes, convidando pessoas sem querer*/
+#user-context-invite-to-server {
+  display: none;
+}
+
+
 /*SUBSTITUIR O TEXTO LONGO DOS LINKS DE MSG POR UMA MENSAGEM MENOR*/
 /* One by David. */
 [title^="https://discord.com/channels/"], [title^="https://ptb.discord.com/channels/"], [title^="https://canary.discord.com/channels/"]   {
