@@ -299,12 +299,11 @@ Setinha da categoria
     Background-color: rgb(27, 27, 0) !important;
 }
 
-/*.app,
-.callout-backdrop {
-    background: url("https://i.imgur.com/nuCy4Ql.jpg") !important;
+.app, .callout-backdrop {
+    background: #FF2134 !important;
     background-size: cover !important;
 }
-*/
+
 /*Cor da @menção e do fundo do @ (não do fundo da msg)*/
 /*#app-mount .wrapper-1ZcZW- {
     background: #00FF00;
@@ -363,6 +362,8 @@ Setinha da categoria
     display: flex !important;
     background: #080808;
 }*/
+
+
 /*Fundo das barras de rolagem*/
 .scrollerBase-_bVAAt::-webkit-scrollbar-track{
     width: 4px;
@@ -403,6 +404,7 @@ Setinha da categoria
     --text-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
     --text-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
     --text-brand: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+
     --interactive-normal: #b9bbbe;
     --interactive-hover: #dcddde;
     --interactive-active: #fff;
@@ -528,4 +530,4 @@ Setinha da categoria
     --brand-experiment-85a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.85);
     --brand-experiment-90a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.9);
     --brand-experiment-95a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.95);
-} =>
+} 
