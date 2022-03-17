@@ -243,6 +243,13 @@ to {
 /*Botões do Windows animados*/
 @import url("https://xhylo.github.io/WinBAcss/winbuttons.css");
 
+/*Altera a cor dos indicadores de Status*/
+rect[fill^="#FF22FF"] {fill: purple}
+rect[fill^="#57F287"] {fill: lime}
+rect[fill^="#FEE75C"] {fill: yellow}
+rect[fill^="#ED4245"] {fill: red}
+rect[fill^="#FFFFFF"] {fill: white}
+
 
 /*Redesign das incorporações*/
 :root {
