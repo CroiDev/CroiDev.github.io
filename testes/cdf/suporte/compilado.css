@@ -108,7 +108,7 @@ div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
 /*Cor das categorias*/
 .container-q97qHp{
     color: #5865F2;
-    text-shadow: 0px 0px 1px #5865F2;
+    /*text-shadow: 0px 0px 1px #5865F2;*/
 }
 
 /* Mostrar hora da mensagem editada */
@@ -143,7 +143,7 @@ body {background: transparent !important;}
   display: none;
 }
 
-/*Remover presente da barra de enviar mensagens*/
+/*Remover "presentear" da barra de enviar mensagens*/
 .buttons-uaqb-5>.button-f2h6uQ:not(.BD-TeX-plugin-button)> :not(.translateButton-DhP9x8) {
   display: none;
 }
@@ -156,7 +156,7 @@ body {background: transparent !important;}
 .container-1NXEtd {background:rgba(var(--color-secondary),var(--sides-transparency2))}
 
 :root {
-    --color-secondary2: url('https://i.imgur.com/TgjYbMX.png');
+    --color-secondary2: var(--background-secondary);
     --sides-transparency2: 0.9;
     --sides-blur2: 7px;
 }
@@ -165,7 +165,7 @@ body {background: transparent !important;}
 /*borda da area de enviar mensagens*/
 .scrollableContainer-15eg7h {
   border: solid 1px !important;
-  animation: rainbow 3s linear 0s infinite normal !important;
+  animation: rainbow 5s linear 0s infinite normal !important;
 }
 @keyframes rainbow {
     0%    {color: #ff0000}
@@ -222,19 +222,19 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
 }
 
 :root {
-    --background: url('https://i.imgur.com/nuCy4Ql.jpg');
+    /*--background: url('https://i.imgur.com/nuCy4Ql.jpg');*/
     --chat-transparency: 0.8;
     --sides-transparency: 0.9;
     --sides-blur: 5px;
 }
 
 .animatorBottom-L63-7D .scale-3UGUBw .didRender-2SiRlm .menu-1QACrS .styleFixed-2_NfVL .layer-2aCOJ3{
-    background: url('https://i.imgur.com/qtvHixi.jpg') cover !important;
+    background: #FF0000 cover !important;
 
 }
 
 .scroller-1bVxF5 .thin-31rlnD .scrollerBase-_bVAAt{
-    background: url('https://i.imgur.com/qtvHixi.jpg');
+    background: #FF00FF;
     position: relative;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -263,7 +263,8 @@ body, .app-2CXKsg, .bg-1QIAus {background:transparent}
     text-align: left;
     word-break: break-word;
     white-space: break-spaces!important;
-}/*
+}
+/*
 A cor do texto que ta aqui muda a cor do texto nas conversas
 .markup-eYLPri {
     font-size: 1rem;
@@ -294,9 +295,8 @@ Setinha da categoria
 */
 
 .channels-3g2vYe{
-    background-image: url("https://i.imgur.com/qtvHixi.jpg") !important;
     background: cover !important;
-    Background-color: rgba(0, 0, 0, 0.a) !important;
+    Background-color: rgb(27, 27, 0) !important;
 }
 
 /*.app,
@@ -317,7 +317,7 @@ Setinha da categoria
     color: #FFF;
     text-shadow: 0px 0px 4px;
     background-color: #5865F2;
-    box-shadow: 0px 0px 6px #5865F2;
+    /*box-shadow: 0px 0px 6px #5865F2;*/
     text-decoration: none;
 }
 
@@ -355,15 +355,15 @@ Setinha da categoria
 }
 */
 /*Fundo da barra de rolagems*/
-.scrollerBase-_bVAAt::-webkit-scrollbar-track,
+/*.scrollerBase-_bVAAt::-webkit-scrollbar-track,
 .peopleList-2VBrVI::-webkit-scrollbar-track,
 .scroller-kQBbkU::-webkit-scrollbar-track,
 .scroller-3j5xK2::-webkit-scrollbar-track{
     max-width: 4px;
     display: flex !important;
     background: #080808;
-}
-/*Funda das barras de rolagem*/
+}*/
+/*Fundo das barras de rolagem*/
 .scrollerBase-_bVAAt::-webkit-scrollbar-track{
     width: 4px;
     background: var(--scroller-track);
@@ -528,4 +528,4 @@ Setinha da categoria
     --brand-experiment-85a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.85);
     --brand-experiment-90a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.9);
     --brand-experiment-95a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.95);
-}
+} =>
