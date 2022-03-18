@@ -13,7 +13,7 @@ Prévia em breve.
 ## Instalação
 Para instalar no **[Powercord](http://powercord.dev/)** ou no **[Vizality](https://vizality.com/)**, vá para a sua **Pasta de Temas -> abra um terminal de sua escolha** e cole / digite o seguinte:
 ```
-git clone https://github.com/CroiDev/TEMACRO-U
+git clone https://github.com/CroiDev/TEMACRO
 ```
 
 **[BetterDiscord](https://betterdiscord.app/)**
