@@ -4,3 +4,6 @@
 ![LICENÇA](https://img.shields.io/github/license/CroiDev/CroiDev.github.io?color=C2C2C2&label=LICENÇA&labelColor=101010&style=flat-square)
 ![VERSÃO](https://img.shields.io/github/v/release/CroiDev/TEMACRO?color=57F287&labelColor=101010&label=VERS%C3%83O&logo=css3&logoColor=57F287&style=flat-square)
 
+![CROI GITHUB](https://github-readme-stats.vercel.app/api?username=CROI&theme=blue-green)
+
+
