@@ -40,6 +40,10 @@ code {
   -webkit-font-feature-settings: "liga"on, "calt"on;
   text-rendering: optimizeLegibility;
 }
+::selection {
+  background-color: var(--brand-experiment) !important;
+  color: #fff !important;
+}
 
 :root {
       /* Bate-papo, canais, etc... */
