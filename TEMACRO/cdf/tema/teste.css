@@ -87,7 +87,12 @@
 }
 
 
-
+.theme-light {
+    --color-primary:255,255,255;
+    --color-secondary:242,243,245;
+    --color-secondary-alt:235,237,239;
+    --color-tertiary:227,229,232;
+}
 
 
 */
@@ -689,99 +694,3 @@ Setinha da categoria
     --brand-experiment-90a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.9);
     --brand-experiment-95a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.95);
 } 
-
-
-.theme-light #app-mount::after {
-    /*--color-primary:255,255,255;
-    --color-secondary:242,243,245;
-    --color-secondary-alt:235,237,239;
-    --color-tertiary:227,229,232;*/
-    content: "Este tema NÃO deve ser usado no modo claro. Por favor, mude para o modo escuro em Configurações -> Aparência.";
-    position: absolute;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    top: 22px;
-    right: 0;
-    bottom: calc(100% - 58px);
-    left: 72px;
-    border-top-left-radius: 8px;
-    font-weight: 500;
-    font-size: 14px;
-    color: white;
-    background-color: #ed4245;
-}
-.theme-light #app-mount .container-YkUktl .flex-2S1XBF .button-12Fmur:last-child {
-    -webkit-animation: flash 1s ease infinite;
-            animation: flash 1s ease infinite;
-    color: white;
-    background-color: #ed4245;
-}
-.theme-light #app-mount #user-settings-cog-Appearance {
-    -webkit-animation: flash 1s ease infinite;
-            animation: flash 1s ease infinite;
-    color: white;
-    background-color: #ed4245 !important;
-}
-.theme-light #app-mount [aria-activedescendant^=user-settings-cog-Appearance] #user-settings-cog-Appearance--dark {
-    -webkit-animation: flash 1s ease infinite;
-            animation: flash 1s ease infinite;
-    color: white;
-    background-color: #ed4245 !important;
-}
-.theme-light #app-mount [aria-controls=appearance-tab] {
-    -webkit-animation: flash 1s ease infinite;
-            animation: flash 1s ease infinite;
-    color: white;
-    background-color: #ed4245 !important;
-}
-.theme-light #app-mount [aria-label=USER_SETTINGS] [tabindex="-1"] + [class=marginTop40-Q4o1tS] .item-2idW98:nth-of-type(1) {
-    -webkit-animation: flash 1s ease infinite;
-            animation: flash 1s ease infinite;
-    color: white;
-    background-color: #ed4245 !important;
-}
-.theme-light #app-mount .base-2jDfDU {
-    margin-top: 36px;
-}
-.theme-light #app-mount .sidebar-1tnWFu {
-    border-radius: 0;
-}
-
-@-webkit-keyframes flash {
-    0% {
-        -webkit-box-shadow: 0 2px 10px rgba(237, 66, 69, 0.2), 0 0 0 2px rgba(237, 65, 68, 0.1);
-                box-shadow: 0 2px 10px rgba(237, 66, 69, 0.2), 0 0 0 2px rgba(237, 65, 68, 0.1);
-    }
-    70% {
-        -webkit-box-shadow: 0 0 20px 15px rgba(237, 66, 69, 0.1), 0 0 0 6px rgba(237, 65, 68, 0.1);
-                box-shadow: 0 0 20px 15px rgba(237, 66, 69, 0.1), 0 0 0 6px rgba(237, 65, 68, 0.1);
-    }
-    100% {
-        -webkit-box-shadow: 0 0 20px 15px rgba(237, 66, 69, 0), 0 0 0 6px rgba(237, 65, 68, 0.1);
-                box-shadow: 0 0 20px 15px rgba(237, 66, 69, 0), 0 0 0 6px rgba(237, 65, 68, 0.1);
-    }
-}
-
-@keyframes flash {
-    0% {
-        -webkit-box-shadow: 0 2px 10px rgba(237, 66, 69, 0.2), 0 0 0 2px rgba(237, 65, 68, 0.1);
-                box-shadow: 0 2px 10px rgba(237, 66, 69, 0.2), 0 0 0 2px rgba(237, 65, 68, 0.1);
-    }
-    70% {
-        -webkit-box-shadow: 0 0 20px 15px rgba(237, 66, 69, 0.1), 0 0 0 6px rgba(237, 65, 68, 0.1);
-                box-shadow: 0 0 20px 15px rgba(237, 66, 69, 0.1), 0 0 0 6px rgba(237, 65, 68, 0.1);
-    }
-    100% {
-        -webkit-box-shadow: 0 0 20px 15px rgba(237, 66, 69, 0), 0 0 0 6px rgba(237, 65, 68, 0.1);
-                box-shadow: 0 0 20px 15px rgba(237, 66, 69, 0), 0 0 0 6px rgba(237, 65, 68, 0.1);
-    }
-}
-    
-}
