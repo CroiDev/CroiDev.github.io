@@ -1,54 +1,116 @@
-
-/* Variaveis padrões */
-/*
-:root {
-    --chat-transparency:0.8;
-    --sides-transparency:0.9;
-    --sides-blur:5px;
-}
 .theme-dark {
     --color-primary:54,57,63;
     --color-secondary:47,49,54;
     --color-secondary-alt:41,43,47;
     --color-tertiary:32,34,37;
+
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --text-normal: #dcddde;
+    --text-muted: #72767d;
+    --text-link: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
+    --text-link-low-saturation: hsl(197,calc(var(--saturation-factor, 1)*100%),52.9%);
+    --text-positive: hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%);
+    --text-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
+    --text-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+    --text-brand: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #4f545c;
+
+    --background-primary: rgba(28,28,28, 0.4);
+    --background-secondary: #141414;
+    --background-secondary-alt: #161616;
+    --background-tertiary: #0A0A0A;
+    --background-accent: var(--background-secondary-alt);
+    --background-floating: #0C0C0C;
+    --background-nested-floating: #2f3136;
+    --background-mobile-primary: var(--background-primary);
+    --background-mobile-secondary: var(--background-secondary);
+    --background-modifier-hover: rgba(79,84,92,0.16);
+    --background-modifier-active: rgba(79,84,92,0.24);
+    --background-modifier-selected: rgba(79,84,92,0.32);
+    --background-modifier-accent: hsla(0,0%,100%,0.06);
+
+    --info-positive-text: #fff;
+    --info-warning-text: #fff;
+    --info-danger-text: #fff;
+    --info-help-background: hsla(197,calc(var(--saturation-factor, 1)*100%),47.8%,0.1);
+    --info-help-foreground: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
+    --info-help-text: #fff;
+    --status-warning-text: #000;
+
+    --scroller-thumb: rgb(30, 30, 30);
+    --scroller-track: rgb(10, 10, 10);
+    --scrollbar-thin-thumb: #202225;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #202225;
+    --scrollbar-auto-track: hsl(210,calc(var(--saturation-factor, 1)*9.8%),20%);
+    --scrollbar-auto-scrollbar-color-thumb: #202225;
+    --scrollbar-auto-scrollbar-color-track: #2f3136;
+    --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
+    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+    --logo-primary: #fff;
+
+    --control-brand-foreground: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+    --control-brand-foreground-new: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+    --background-mentioned: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1);
+    --background-mentioned-hover: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.08);
+    --background-message-hover: rgba(4,4,5,0.07);
+    --background-message-automod: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,0.05);
+    --background-message-automod-hover: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,0.1);
+
+    --channels-default: #8e9297;
+    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    --channeltextarea-background: #303030;
+    --activity-card-background: #202225;
+    --textbox-markdown-syntax: #8e9297;
+    --spoiler-revealed-background: #292b2f;
+    --spoiler-hidden-background: #202225;
+    --deprecated-card-bg: rgba(32,34,37,0.6);
+    --deprecated-card-editable-bg: rgba(32,34,37,0.3);
+    --deprecated-store-bg: var(--background-primary);
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
+    --deprecated-text-input-bg: rgba(0,0,0,0.1);
+    --deprecated-text-input-border: rgba(0,0,0,0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+    --deprecated-text-input-prefix: #dcddde;
+
+    --brightness: calc(1.5 - var(--saturation-factor, 1)*0.5);
+    --contrast: var(--saturation-factor,1);
 }
+
+
 .theme-light {
     --color-primary:255,255,255;
     --color-secondary:242,243,245;
     --color-secondary-alt:235,237,239;
     --color-tertiary:227,229,232;
 }
-*/
 
-/*Marca dagua do Discord*/
-.wordmark-2u86JB > svg {
-display: none
-}
-.wordmark-2u86JB:after {
-content: 'Discroid';
-display: flex;
-align-items: center;
-padding: 0 6px;
-height: calc(100% + 4px);
-top: -4px;
-width: fit-content;
-font-size: 14px;
-font-weight: bold;
-}
+
+*/
 
 /*Notificaçaozinha na parte superior ocupando toda a largura*/
 /*Versão desatualizada*/
-/*#app-mount .app-2CXKsg::before {
-z-index:9999;
-text-align: center;
-  content: "Sua versão do TEMACRO está desatualizada. Baixe a versão mais recente!";
+#app-mount .app-2CXKsg::before {
+  z-index:9999;
+  text-align: center;
+  /*content: "Sua versão do TEMACRO está desatualizada. Baixe a versão mais recente!";*/
+  content: "Está é uma versão de testes.";
   display: block;
   padding: 8px 16px;
   background-color: var(--brand-experiment);
   color: #fff;
   font-weight: 500;
 }
-*/
+
 
 /*Lista de usuarios modo Hover*/
 /*.membersWrap-3NUR2t {min-width: unset;}
@@ -570,82 +632,7 @@ Setinha da categoria
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
 }
-
-
-.theme-dark {
-    --header-primary: #fff;
-    --header-secondary: #b9bbbe;
-    --text-normal: #dcddde;
-    --text-muted: #72767d;
-    --text-link: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
-    --text-link-low-saturation: hsl(197,calc(var(--saturation-factor, 1)*100%),52.9%);
-    --text-positive: hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%);
-    --text-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
-    --text-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
-    --text-brand: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
-
-    --interactive-normal: #b9bbbe;
-    --interactive-hover: #dcddde;
-    --interactive-active: #fff;
-    --interactive-muted: #4f545c;
-    --background-primary: rgba(28,28,28, 0.4);
-    --background-secondary: #141414;
-    --background-secondary-alt: #161616;
-    --background-tertiary: #0A0A0A;
-    --background-accent: var(--background-secondary-alt);
-    --background-floating: #0C0C0C;
-    --background-nested-floating: #2f3136;
-    --background-mobile-primary: var(--background-primary);
-    --background-mobile-secondary: var(--background-secondary);
-    --background-modifier-hover: rgba(79,84,92,0.16);
-    --background-modifier-active: rgba(79,84,92,0.24);
-    --background-modifier-selected: rgba(79,84,92,0.32);
-    --background-modifier-accent: hsla(0,0%,100%,0.06);
-    --info-positive-text: #fff;
-    --info-warning-text: #fff;
-    --info-danger-text: #fff;
-    --info-help-background: hsla(197,calc(var(--saturation-factor, 1)*100%),47.8%,0.1);
-    --info-help-foreground: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
-    --info-help-text: #fff;
-    --status-warning-text: #000;
-    --scroller-thumb: rgb(30, 30, 30);
-    --scroller-track: rgb(10, 10, 10);
-    --scrollbar-thin-thumb: #202225;
-    --scrollbar-thin-track: transparent;
-    --scrollbar-auto-thumb: #202225;
-    --scrollbar-auto-track: hsl(210,calc(var(--saturation-factor, 1)*9.8%),20%);
-    --scrollbar-auto-scrollbar-color-thumb: #202225;
-    --scrollbar-auto-scrollbar-color-track: #2f3136;
-    --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
-    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
-    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
-    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
-    --logo-primary: #fff;
-    --control-brand-foreground: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
-    --control-brand-foreground-new: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
-    --background-mentioned: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1);
-    --background-mentioned-hover: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.08);
-    --background-message-hover: rgba(4,4,5,0.07);
-    --background-message-automod: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,0.05);
-    --background-message-automod-hover: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,0.1);
-    --channels-default: #8e9297;
-    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
-    --channeltextarea-background: #303030;
-    --activity-card-background: #202225;
-    --textbox-markdown-syntax: #8e9297;
-    --spoiler-revealed-background: #292b2f;
-    --spoiler-hidden-background: #202225;
-    --deprecated-card-bg: rgba(32,34,37,0.6);
-    --deprecated-card-editable-bg: rgba(32,34,37,0.3);
-    --deprecated-store-bg: var(--background-primary);
-    --deprecated-quickswitcher-input-background: #72767d;
-    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
-    --deprecated-text-input-bg: rgba(0,0,0,0.1);
-    --deprecated-text-input-border: rgba(0,0,0,0.3);
-    --deprecated-text-input-border-hover: #040405;
-    --deprecated-text-input-border-disabled: #202225;
-    --deprecated-text-input-prefix: #dcddde;
-}
+ 
 
 
 
@@ -659,10 +646,7 @@ Setinha da categoria
     --font-chinese-simplified: Whitney,"Microsoft YaHei New",微软雅黑,"Microsoft Yahei","Microsoft JhengHei",宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
     --font-chinese-traditional: Whitney,"Microsoft JhengHei",微軟正黑體,"Microsoft JhengHei UI","Microsoft YaHei",微軟雅黑,宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-.theme-dark {
-    --brightness: calc(1.5 - var(--saturation-factor, 1)*0.5);
-    --contrast: var(--saturation-factor,1);
-}
+
 [data-popout-root], html {
     --brand-experiment-100: hsl(240,calc(var(--saturation-factor, 1)*77.8%),98.2%);
     --brand-experiment-130: hsl(236,calc(var(--saturation-factor, 1)*87.5%),96.9%);
