@@ -1,11 +1,11 @@
 @-moz-document domain("discord.com") {
     /* ==UserStyle==
-    @name         TEMACRO Testes
-    @description  Um tema para testes.
+    @name         TEMACRO
+    @description  Um tema para testes. rs
     @author       Croi
-    @namespace    github.com/CroiDev/TEMACRO-Testes
+    @namespace    github.com/CroiDev/TEMACRO
     @version      1.0.0
     ==/UserStyle== */
 
-    @import url("https://croidev.github.io/testes/cdf/suporte/compilado.css");
+    @import url("https://croidev.github.io/TEMACRO/cdf/tema/compilado.css");
 }
