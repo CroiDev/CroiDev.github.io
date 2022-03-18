@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;600;700&display=swap');
+@import url("https://dev-cats.github.io/code-snippets/JetBrainsMono.css");
+
+
+.theme-dark:root {
+  /* Bate-papo, canais, etc... */
+  --font-primary: "Source Sans Pro", sans-serif;
+
+  /* Servidor/canal/cargos/etc (fonte com aquele G horrivel) */
+  --font-display: "Source Sans Pro", sans-serif;
+
+  /* Bloco de código */
+  --font-code: "JetBrainsMono", "Fira Code", "Source Sans Pro", sans-serif;
+
+
+:root {
+    --font-primary: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-display: Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-code: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+    --font-headline: Ginto Nord,Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-korean: Whitney,"Apple SD Gothic Neo","NanumBarunGothic","\B9D1\C740 \ACE0\B515","Malgun Gothic",Gulim,굴림,Dotum,돋움,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-japanese: Whitney,Hiragino Sans,"\30D2\30E9\30AE\30CE\89D2\30B4 ProN W3","Hiragino Kaku Gothic ProN","\30E1\30A4\30EA\30AA",Meiryo,Osaka,"MS PGothic","Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-chinese-simplified: Whitney,"Microsoft YaHei New",微软雅黑,"Microsoft Yahei","Microsoft JhengHei",宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-chinese-traditional: Whitney,"Microsoft JhengHei",微軟正黑體,"Microsoft JhengHei UI","Microsoft YaHei",微軟雅黑,宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .theme-dark {
     --color-primary:54,57,63;
     --color-secondary:47,49,54;
@@ -631,16 +658,7 @@ Setinha da categoria
 
 
 
-:root {
-    --font-primary: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    --font-display: Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    --font-code: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
-    --font-headline: Ginto Nord,Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    --font-korean: Whitney,"Apple SD Gothic Neo","NanumBarunGothic","\B9D1\C740 \ACE0\B515","Malgun Gothic",Gulim,굴림,Dotum,돋움,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    --font-japanese: Whitney,Hiragino Sans,"\30D2\30E9\30AE\30CE\89D2\30B4 ProN W3","Hiragino Kaku Gothic ProN","\30E1\30A4\30EA\30AA",Meiryo,Osaka,"MS PGothic","Helvetica Neue",Helvetica,Arial,sans-serif;
-    --font-chinese-simplified: Whitney,"Microsoft YaHei New",微软雅黑,"Microsoft Yahei","Microsoft JhengHei",宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    --font-chinese-traditional: Whitney,"Microsoft JhengHei",微軟正黑體,"Microsoft JhengHei UI","Microsoft YaHei",微軟雅黑,宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
+
 
 [data-popout-root], html {
     --brand-experiment-100: hsl(240,calc(var(--saturation-factor, 1)*77.8%),98.2%);
