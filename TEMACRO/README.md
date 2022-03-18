@@ -5,6 +5,6 @@
 ![VERSÃO](https://img.shields.io/github/v/release/CroiDev/TEMACRO?color=57F287&labelColor=101010&label=VERS%C3%83O&logo=css3&logoColor=57F287&style=flat-square)
 
 
-![FEITO COM](https://img.shields.io/badge/?style=flat-square&label=FEITO_COM&labelColor=101010&message=MAGICA_✨&color=orange)
+![FEITO COM](https://img.shields.io/badge/?style=flat-square&label=FEITO-COM&labelColor=101010&message=MAGICA✨&color=orange)
 
 
