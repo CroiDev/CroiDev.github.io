@@ -746,7 +746,8 @@ Setinha da categoria
     --color-secondary:242,243,245;
     --color-secondary-alt:235,237,239;
     --color-tertiary:227,229,232;*/
-.theme-light #app-mount::after {
+
+.theme-light:root #app-mount::after {
     z-index: 1005;
     content: "Para que este tema funcione corretamente, você deve habilitar o modo escuro. \a\aPara habilitá-lo, vá para Configurações -> Aparência.";
     white-space: pre-wrap;
