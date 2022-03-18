@@ -4,14 +4,7 @@
 
 
 .theme-dark{
-  /* Bate-papo, canais, etc... */
-  --font-primary: "Source Sans Pro", sans-serif;
 
-  /* Servidor/canal/cargos/etc (fonte com aquele G horrivel) */
-  --font-display: "Source Sans Pro", sans-serif;
-
-  /* Bloco de código */
-  --font-code: "JetBrainsMono", "Fira Code", "Source Sans Pro", sans-serif;
 
 
   --blurple-bg: linear-gradient(90deg, rgba(107, 105, 255, 1) 0%, rgba(131, 129, 254, 1) 100%);
@@ -35,9 +28,18 @@
 
 
 :root {
-    --font-primary: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      /* Bate-papo, canais, etc... */
+    --font-primary: "Source Sans Pro", sans-serif;
+
+    /* Servidor/canal/cargos/etc (fonte com aquele G horrivel) */
+    --font-display: "Source Sans Pro", sans-serif;
+
+     /* Bloco de código */
+    --font-code: "JetBrainsMono", "Fira Code", "Source Sans Pro", sans-serif;
+    
+    /*--font-primary: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
     --font-display: Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    --font-code: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+    --font-code: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;*/
     --font-headline: Ginto Nord,Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;
     --font-korean: Whitney,"Apple SD Gothic Neo","NanumBarunGothic","\B9D1\C740 \ACE0\B515","Malgun Gothic",Gulim,굴림,Dotum,돋움,"Helvetica Neue",Helvetica,Arial,sans-serif;
     --font-japanese: Whitney,Hiragino Sans,"\30D2\30E9\30AE\30CE\89D2\30B4 ProN W3","Hiragino Kaku Gothic ProN","\30E1\30A4\30EA\30AA",Meiryo,Osaka,"MS PGothic","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -124,7 +126,7 @@
     
     --activity-card-background: #202225;
     --textbox-markdown-syntax: #8e9297;
-    
+
     --spoiler-revealed-background: #292b2f;
     --spoiler-hidden-background: #202225;
 
