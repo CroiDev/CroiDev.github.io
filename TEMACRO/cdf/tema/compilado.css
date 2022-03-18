@@ -79,6 +79,7 @@
     --background-accent: var(--background-secondary-alt);
     --background-floating: #0C0C0C;
     --background-nested-floating: #2f3136;
+    --channeltextarea-background: #303030;
 
     --background-mobile-primary: var(--background-primary);
     --background-mobile-secondary: var(--background-secondary);
@@ -120,15 +121,17 @@
 
     --channels-default: #8e9297;
     --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
-    --channeltextarea-background: #303030;
+    
     --activity-card-background: #202225;
     --textbox-markdown-syntax: #8e9297;
+    
     --spoiler-revealed-background: #292b2f;
     --spoiler-hidden-background: #202225;
+
     --deprecated-card-bg: rgba(32,34,37,0.6);
     --deprecated-card-editable-bg: rgba(32,34,37,0.3);
     --deprecated-store-bg: var(--background-primary);
-    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-background: var(--background-primary);
     --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
     --deprecated-text-input-bg: rgba(0,0,0,0.1);
     --deprecated-text-input-border: rgba(0,0,0,0.3);
