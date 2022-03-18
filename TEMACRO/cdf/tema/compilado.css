@@ -40,6 +40,8 @@ code {
   -webkit-font-feature-settings: "liga"on, "calt"on;
   text-rendering: optimizeLegibility;
 }
+
+/*Texto de seleção com cor personalizada*/
 ::selection {
   background-color: var(--brand-experiment) !important;
   color: #fff !important;
@@ -411,10 +413,7 @@ Ajuda a evitar acidentes, convidando pessoas sem querer*/
 
 }
 
-/*Texto de seleção com cor personalizada*/
-::selection {
-    background-color: red;
-}
+
 
 /*SUBSTITUIR O TEXTO LONGO DOS LINKS DE MSG POR UMA MENSAGEM MENOR*/
 /* One by David. */
@@ -627,8 +626,8 @@ Setinha da categoria
 /*Cor do 'Hover' da @Menção e do fundo dela (não do fundo da msg) -*/
 #app-mount .interactive:hover {
     color: #FFF;
-    text-shadow: 0px 0px 4px;
-    background-color: #5865F2;
+    text-shadow: 0px 0px 4px #FFF;
+    background-color: rgba(88, 101, 242, 0.5);
     /*box-shadow: 0px 0px 6px #5865F2;*/
     text-decoration: none;
 }
