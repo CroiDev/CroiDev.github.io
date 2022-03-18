@@ -749,3 +749,33 @@ Setinha da categoria
         box-shadow: 0 0 20px 15px rgba(237, 66, 69, 0), 0 0 0 6px rgba(237, 65, 68, 0.1);
    }
 }
+
+body #app-mount .theme-light .root-g14mjS {
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --text-normal: #dcddde;
+    --text-muted: #969696;
+    background-color: #141414;
+}
+body #app-mount .theme-light .root-g14mjS .footer-31IekZ {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background-color: #0a0a0a;
+}
+body #app-mount .theme-light .root-g14mjS .container-x8Y1ix,
+body #app-mount .theme-light .root-g14mjS .rowContainer-3t7486 {
+    background-color: #0A0A0A;
+}
+body #app-mount .theme-light .root-g14mjS .container-x8Y1ix:hover,
+body #app-mount .theme-light .root-g14mjS .rowContainer-3t7486:hover {
+    background-color: #1c1c1c;
+}
+body #app-mount .theme-light .root-g14mjS .formTitle-2YQyhj {
+    color: var(--header-primary);
+}
+body #app-mount .theme-light .root-g14mjS .sampleLink-5BWNy9 {
+    color: var(--text-muted);
+}
+body #app-mount .theme-light .root-g14mjS .input-m1-Y7Q {
+    background-color: #0A0A0A;
+}
