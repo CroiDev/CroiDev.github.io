@@ -57,6 +57,7 @@ code {
      /* Bloco de código */
     --font-code: "JetBrainsMono", "Fira Code", "Source Sans Pro", sans-serif;
 
+    -webkit-font-feature-settings: "liga"on, "calt"on;
     /*--font-primary: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
     --font-display: Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;
     --font-code: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;*/
@@ -606,22 +607,6 @@ Setinha da categoria
 }
 */
 
-.channels-3g2vYe{
-    background: cover !important;
-    Background-color: rgb(27, 27, 0) !important;
-}
-
-.app, .callout-backdrop {
-    background: #FF2134 !important;
-    background-size: cover !important;
-}
-
-/*Cor da @menção e do fundo do @ (não do fundo da msg)*/
-/*#app-mount .wrapper-1ZcZW- {
-    background: #00FF00;
-    color: #FF0000;
-}
-*/
 
 /*Cor do 'Hover' da @Menção e do fundo dela (não do fundo da msg) -*/
 #app-mount .interactive:hover {
