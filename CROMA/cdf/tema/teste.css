@@ -1,0 +1,696 @@
+.theme-dark {
+    --color-primary:54,57,63;
+    --color-secondary:47,49,54;
+    --color-secondary-alt:41,43,47;
+    --color-tertiary:32,34,37;
+
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --text-normal: #dcddde;
+    --text-muted: #72767d;
+    --text-link: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
+    --text-link-low-saturation: hsl(197,calc(var(--saturation-factor, 1)*100%),52.9%);
+    --text-positive: hsl(139,calc(var(--saturation-factor, 1)*66.8%),58.6%);
+    --text-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
+    --text-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+    --text-brand: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+
+    --interactive-normal: #b9bbbe;
+    --interactive-hover: #dcddde;
+    --interactive-active: #fff;
+    --interactive-muted: #4f545c;
+
+    --background-primary: rgba(28,28,28, 0.4);
+    --background-secondary: #141414;
+    --background-secondary-alt: #161616;
+    --background-tertiary: #0A0A0A;
+    --background-accent: var(--background-secondary-alt);
+    --background-floating: #0C0C0C;
+    --background-nested-floating: #2f3136;
+    --background-mobile-primary: var(--background-primary);
+    --background-mobile-secondary: var(--background-secondary);
+    --background-modifier-hover: rgba(79,84,92,0.16);
+    --background-modifier-active: rgba(79,84,92,0.24);
+    --background-modifier-selected: rgba(79,84,92,0.32);
+    --background-modifier-accent: hsla(0,0%,100%,0.06);
+
+    --info-positive-text: #fff;
+    --info-warning-text: #fff;
+    --info-danger-text: #fff;
+    --info-help-background: hsla(197,calc(var(--saturation-factor, 1)*100%),47.8%,0.1);
+    --info-help-foreground: hsl(197,calc(var(--saturation-factor, 1)*100%),47.8%);
+    --info-help-text: #fff;
+    --status-warning-text: #000;
+
+    --scroller-thumb: rgb(30, 30, 30);
+    --scroller-track: rgb(10, 10, 10);
+    --scrollbar-thin-thumb: #202225;
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: #202225;
+    --scrollbar-auto-track: hsl(210,calc(var(--saturation-factor, 1)*9.8%),20%);
+    --scrollbar-auto-scrollbar-color-thumb: #202225;
+    --scrollbar-auto-scrollbar-color-track: #2f3136;
+    --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
+    --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+    --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
+    --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
+    --logo-primary: #fff;
+
+    --control-brand-foreground: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+    --control-brand-foreground-new: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+    --background-mentioned: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.1);
+    --background-mentioned-hover: hsla(38,calc(var(--saturation-factor, 1)*95.7%),54.1%,0.08);
+    --background-message-hover: rgba(4,4,5,0.07);
+    --background-message-automod: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,0.05);
+    --background-message-automod-hover: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,0.1);
+
+    --channels-default: #8e9297;
+    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+    --channeltextarea-background: #303030;
+    --activity-card-background: #202225;
+    --textbox-markdown-syntax: #8e9297;
+    --spoiler-revealed-background: #292b2f;
+    --spoiler-hidden-background: #202225;
+    --deprecated-card-bg: rgba(32,34,37,0.6);
+    --deprecated-card-editable-bg: rgba(32,34,37,0.3);
+    --deprecated-store-bg: var(--background-primary);
+    --deprecated-quickswitcher-input-background: #72767d;
+    --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
+    --deprecated-text-input-bg: rgba(0,0,0,0.1);
+    --deprecated-text-input-border: rgba(0,0,0,0.3);
+    --deprecated-text-input-border-hover: #040405;
+    --deprecated-text-input-border-disabled: #202225;
+    --deprecated-text-input-prefix: #dcddde;
+
+    --brightness: calc(1.5 - var(--saturation-factor, 1)*0.5);
+    --contrast: var(--saturation-factor,1);
+}
+
+
+.theme-light {
+    --color-primary:255,255,255;
+    --color-secondary:242,243,245;
+    --color-secondary-alt:235,237,239;
+    --color-tertiary:227,229,232;
+}
+
+
+*/
+
+/*Notificaçaozinha na parte superior ocupando toda a largura*/
+/*Versão desatualizada*/
+#app-mount .app-2CXKsg::before {
+  z-index:9999;
+  text-align: center;
+  /*content: "Sua versão do TEMACRO está desatualizada. Baixe a versão mais recente!";*/
+  content: "Está é uma versão de testes.";
+  display: block;
+  padding: 8px 16px;
+  background-color: var(--brand-experiment);
+  color: #fff;
+  font-weight: 500;
+}
+
+
+/*Lista de usuarios modo Hover*/
+/*.membersWrap-3NUR2t {min-width: unset;}
+.members-3WRCEx {max-width: 65px;min-width: 65px;transition: 0.5s ease;}
+.members-3WRCEx:hover {max-width: 240px;min-width: 240px;}
+div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
+
+*/
+
+/*CARGOS EXTRAVAGANTES*/
+/*rolesList-3uZoaa {
+  gap: 8px;
+}
+.role-2TIOKu {
+  margin: 0;
+  height: auto;
+  padding: 6px 8px;
+  border-radius: 4px;
+  gap: 8px;
+  position: relative;
+  overflow: hidden;
+}
+.role-2TIOKu:hover .roleCircle-1EgnFN {
+  width: 100%;
+  opacity: 1;
+}
+.role-2TIOKu:hover .roleCircle-1EgnFN:not(:empty) ~ .roleName-2ZJJYR {
+  margin-left: 22px;
+}
+.roleCircle-1EgnFN {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  height: 100%;
+  border-radius: 0;
+  width: 85%;
+  -webkit-mask: linear-gradient(90deg, black, transparent);
+          mask: linear-gradient(90deg, black, transparent);
+  filter: none;
+  opacity: 0.3;
+  justify-content: flex-start;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.15s ease;
+}
+.roleName-2ZJJYR {
+  position: relative;
+  margin: 0;
+  transition: margin-left 0.15s ease;
+}
+.roleRemoveIcon-387wKV {
+  width: 16px;
+  height: 16px;
+}
+*/
+
+/*Outro estilo para os cargos*/
+.role-2TIOKu{background: transparent;border: 1px solid;border-radius: 11px;}
+.roleCircle-1EgnFN {margin-left: 0;}
+.addButton-1_dZYu.role-2TIOKu {border-color: #4f545c;}
+.addButtonIcon-3HZ_2f {width: 10px;height: 10px;} 
+
+
+
+/* Tornar o titulo do PermissionsViewer mais familiar ao Discord */
+.member-perms-title{text-transform:uppercase;color:var(--header-secondary);font-weight:700;margin-bottom:8px;font-size:12px;}
+
+
+/*Cor das categorias*/
+.container-q97qHp{
+    color: #5865F2;
+    /*text-shadow: 0px 0px 1px #5865F2;*/
+}
+
+/* Mostrar hora da mensagem editada */
+.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
+        content: " (" attr(aria-label) ")";
+        color: var(--text-muted);
+        font-size: 0.625rem;
+        font-weight: 400;
+        line-height: 1;
+        text-transform: lowercase;
+}
+
+.edited-1v5nT8:not(.message-translate-indicator) {
+    display: none;
+}
+
+/*Deixar borda da janela do Discord arredondada*/
+/*#app-mount {
+    overflow: hidden;
+    border-radius: 10px; 
+}
+
+body {background: transparent !important;}
+
+*/
+
+/*Ocultar botão de ouvir junto no Spotify*/
+.buttonsWrapper-2ARRp1 {display: none;}
+
+/*Remover stiker da barra de enviar mensagens*/
+.stickerButton-1-nFh2 {
+  display: none;
+}
+
+/*Remover "presentear" da barra de enviar mensagens*/
+.buttons-uaqb-5>.button-f2h6uQ:not(.BD-TeX-plugin-button)> :not(.translateButton-DhP9x8) {
+  display: none;
+}
+
+
+/* Canais e amigos */
+#app-mount .sidebar-1tnWFu, .notice-1x8lm- {border-radius:0}
+.sidebar-1tnWFu {background:transparent}
+.sidebar-1tnWFu {backdrop-filter:blur(var(--sides-blur2))}
+.container-1NXEtd {background:rgba(var(--color-secondary),var(--sides-transparency2))}
+
+:root {
+    --color-secondary2: var(--background-secondary);
+    --sides-transparency2: 0.9;
+    --sides-blur2: 7px;
+}
+
+
+/*borda da area de enviar mensagens arcoiris*/
+.scrollableContainer-15eg7h {
+  border: solid 1px !important;
+  animation: rainbow 5s linear 0s infinite normal !important;
+}
+@keyframes rainbow {
+    0%    {color: #ff0000}
+    12%   {color: #ffbf00}
+    25%   {color: #80ff00}
+    37%   {color: #00ff40}
+    50%   {color: #00ffff}
+    62%   {color: #0040ff}
+    75%   {color: #8000ff}
+    87%   {color: #eb34bd}
+    100%  {color: #ff0000}
+}
+
+/* Usuario ID Arcoiris */
+.subtext-2HDqJ7,
+.customStatus-1UAQAK,
+.hovered-20u3oh,
+.title-338goq {
+    background-image: linear-gradient(to left,#00FF00, #FFD700, #FF0000, #EE00FF, #1065F2, #00FF00;
+    animation: gradient-border 5s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    z-index: 1;
+}
+@keyframes gradient-border {
+from {
+  background-position: 0 0;
+}
+to {
+  background-position: 100% 0;
+}
+}
+
+/*Redesign do plugin BetterInvites*/
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
+
+/*Remove a marca de verificado nas conexões*/
+.connectedAccountNameInner-2q3MVf .connectedAccountVerifiedIcon-2cA82O {display: none;}
+
+/* Remove o grampo da seção Sobre mim no popout do usuário, adiciona um pergaminho a ele, define-o para uma altura definida.
+(Limite do Discord é de 6 linhas, dps disso ele corta e adc: ...)
+
+ */
+.clamped-2ZePhX{
+    -webkit-line-clamp: 190; /*Maximum amount of characters as new lines, unset just breaks links*/
+    max-height:112px;
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+.clamped-2ZePhX::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.clamped-2ZePhX::-webkit-scrollbar-track {
+  border-radius: 10px; /*How round you want the scrollbar to be. 0 is square, 10px is round.*/
+  background-color: rgb(255 255 255 / 10%); /*Edit this to what color you want the track to be.*/
+}
+.clamped-2ZePhX::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #00aeff, #a68eff); /* Edit this to whatever color/colors you'd like*/
+  border-radius: 10px; /*How round you want the scrollbar thumb to be. 0 is square, 10px is round.*/
+}
+
+
+/* Remove a caixa que diz que você não tem permisões para mandar msg */
+.channelTextAreaDisabled-8rmlrp, .channelTextAreaDisabled-8rmlrp > .scrollableContainer-2NUZem{
+  animation: nochat .000001ms forwards;
+}
+@keyframes nochat{
+  to{height: 0}
+}
+/* Remove o cartaz de seguir na parte inferior dos canais*/
+.wrapper-39oAo3 {display: none;}
+
+/*Botões do Windows animados*/
+@import url("https://xhylo.github.io/WinBAcss/winbuttons.css");
+
+/*Altera a cor dos indicadores de Status*/
+rect[fill^="#FF22FF"] {fill: purple}
+rect[fill^="#57F287"] {fill: lime}
+rect[fill^="#FEE75C"] {fill: yellow}
+rect[fill^="#ED4245"] {fill: red}
+rect[fill^="#FFFFFF"] {fill: white}
+
+
+/*Esconde o botão "Convidar para o servidor do menu de contexto do usuario
+Ajuda a evitar acidentes, convidando pessoas sem querer*/
+#user-context-invite-to-server {
+  display: none;
+}
+
+/*Menu de contexto - botão direito*/
+.menu-3sdvDG{
+    background: rgba(10, 10, 10, 7);
+    filter: blur(6px);
+
+}
+
+/*Texto de seleção com cor personalizada*/
+::selection {
+    background-color: red;
+}
+
+/*SUBSTITUIR O TEXTO LONGO DOS LINKS DE MSG POR UMA MENSAGEM MENOR*/
+/* One by David. */
+[title^="https://discord.com/channels/"], [title^="https://ptb.discord.com/channels/"], [title^="https://canary.discord.com/channels/"]   {
+    line-height:0;
+    font-size:0;
+}
+[title^="https://discord.com/channels/"]::before, [title^="https://ptb.discord.com/channels/"]::before, [title^="https://canary.discord.com/channels/"]::before{
+    content:'Ir até mensagem';
+    font-size:16px;
+    font-weight:700;
+}
+/* One by ThatOtherAndrew/PowerCord*/
+[title^="https://discord.com/channels/"], [title^="https://ptb.discord.com/channels/"], [title^="https://canary.discord.com/channels/"] {
+  line-height: 0;
+  font-size: 0;
+  text-decoration-color: #fff !important;
+}
+[title^="https://discord.com/channels/"]::before, [title^="https://ptb.discord.com/channels/"]::before, [title^="https://canary.discord.com/channels/"]::before {
+  content: ":envelope: Ir para mensagem";
+  font-size: 16px;
+  user-select: text;
+  font-weight: 500;
+  transition: background-color 50ms ease-out, color 50ms ease-out;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 0 2px;
+  background: hsla(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%, 0.3);
+  color: hsl(236, calc(var(--saturation-factor, 1) * 83.3%), 92.9%);
+}
+[title^="https://discord.com/channels/"]:hover::before, [title^="https://ptb.discord.com/channels/"]:hover::before, [title^="https://canary.discord.com/channels/"]:hover::before {
+  background-color: hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%);
+  color: #fff;
+}
+
+
+/*Redesign das incorporações*/
+:root {
+    --embed-border-radius: 8px;
+}
+.embed-hKpSrO {
+    border-radius: var(--embed-border-radius);
+}
+.embed-hKpSrO code {
+    background: var(--background-secondary);
+}
+:root {
+    --embed-line-width: 256px;
+}
+.embedWrapper-1MtIDg {
+}
+.embedFull-1HGV2S {
+    border-left: calc(4px + var(--embed-line-width)) solid var(--background-accent);
+    background: var(--background-secondary);
+}
+.grid-1aWVsE {
+    margin-left: calc( -1 * var(--embed-line-width));
+    z-index: 1;
+}
+.embedFull-1HGV2S: after, .embedFull-1HGV2S: before {
+    content: "";
+    height: 100%;
+    width: var(--embed-line-width);
+    position: absolute;
+    top: 0;
+    left: calc(-1 * var(--embed-line-width));
+}
+.embedFull-1HGV2S: after {
+    background: linear-gradient(to right, transparent, var(--background-secondary));
+}
+.embedFull-1HGV2S: before {
+    background: var(--background-secondary);
+    opacity: .8;
+}
+
+
+
+
+/* Geral */
+body, .app-2CXKsg, .bg-1QIAus {background:transparent}
+#app-mount {background:var(--background) center/cover repeat}
+#app-mount>.app-3xd6d0>:not(.app-2CXKsg) {background:rgba(var(--color-primary),var(--chat-transparency))!important;backdrop-filter:blur(var(--sides-blur))}
+:focus {outline:none}
+.enterDone-menWZ8>.verification-2oQUwN {background:rgba(var(--color-primary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
+#app-mount>.errorPage-2pZ2Kq {background-color:rgba(var(--color-secondary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
+.artwork-L5TAwQ {display:none}
+
+/* Canais e amigos */
+/*#app-mount .sidebar-1tnWFu, .notice-1x8lm- {border-radius:0}
+.sidebar-1tnWFu {background:transparent}
+.sidebar-1tnWFu {backdrop-filter:blur(var(--sides-blur))}
+.container-1NXEtd {background:rgba(var(--color-secondary),var(--sides-transparency))}
+*/
+
+/* Conversas */
+.chat-2ZfjoI, .container-3XgAHv {background:transparent} /* Chat and threads chat */
+.chatContent-3KubbW, .chat-1rZYgu {background:rgba(var(--color-primary),var(--chat-transparency))} /* Chat and threads chat */
+#app-mount .form-3gdLxP:before {display:none} /* Small thing left to text input */
+.wrapper-3HVHpV, .wrapper-15CKyy {background:transparent} /* Messages not loading */
+.content-3spvdd {background:transparent;backdrop-filter:blur(5px)} /* New day divider */
+
+
+/*Cor do canal ativo*/
+.modeSelected-3DmyhH{
+    background: rgba(255, 255, 255, 0.1);
+    border-left: 4px solid #5865f2;
+}
+
+.modeSelected-3DmyhH:hover{
+    border-left: 4px solid #C2C2C2;
+}
+
+/*Cor dos retangulos dos canais*/
+#app-mount .content-1gYQeQ{
+    background-color: transparent;
+    margin: 0;
+    border-radius: 0;
+}
+
+:root {
+    /*--background: url('https://i.imgur.com/nuCy4Ql.jpg');*/
+    --chat-transparency: 0.8;
+    --sides-transparency: 0.9;
+    --sides-blur: 5px;
+}
+
+.animatorBottom-L63-7D .scale-3UGUBw .didRender-2SiRlm .menu-1QACrS .styleFixed-2_NfVL .layer-2aCOJ3{
+    background: #FF0000 cover !important;
+
+}
+
+.scroller-1bVxF5 .thin-31rlnD .scrollerBase-_bVAAt{
+    background: #FF00FF;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+.scroller-1bVxF5 {
+    padding: 6px 8px;
+}
+
+
+.fontSize16Padding-XoMpjI {
+    padding-bottom: 11px;
+    padding-top: 11px;
+}
+.placeholder-1_mJY1, .slateTextArea-27tjG0 {
+    padding-right: 10px;
+}
+.slateTextArea-27tjG0 {
+    caret-color: #57F287;
+    position: absolute;
+    left: 0;
+    right: 10px;
+    text-align: left;
+    word-break: break-word;
+    white-space: break-spaces!important;
+}
+/*
+A cor do texto que ta aqui muda a cor do texto nas conversas
+.markup-eYLPri {
+    font-size: 1rem;
+    line-height: 1.375rem;
+    white-space: pre-wrap;
+    white-space: break-spaces;
+    word-wrap: break-word;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    color: #dcddde;
+    font-weight: 400;
+}
+
+TEXTO GERAL
+.overflow-1wOqNV{
+    color: #72767d;
+}
+.overflow-1wOqNV: active{
+    color: #dcddde;
+}
+
+Setinha da categoria
+.mainContent-uDGa6R{
+    color: #72767d;
+}
+*/
+
+.channels-3g2vYe{
+    background: cover !important;
+    Background-color: rgb(27, 27, 0) !important;
+}
+
+.app, .callout-backdrop {
+    background: #FF2134 !important;
+    background-size: cover !important;
+}
+
+/*Cor da @menção e do fundo do @ (não do fundo da msg)*/
+/*#app-mount .wrapper-1ZcZW- {
+    background: #00FF00;
+    color: #FF0000;
+}
+*/
+
+/*Cor do 'Hover' da @Menção e do fundo dela (não do fundo da msg) -*/
+#app-mount .interactive:hover {
+    color: #FFF;
+    text-shadow: 0px 0px 4px;
+    background-color: #5865F2;
+    /*box-shadow: 0px 0px 6px #5865F2;*/
+    text-decoration: none;
+}
+
+
+/*.content .flex-spacer, .content > .ui-flex {
+    background: rgba(0,0,0,0.7);
+}
+*/
+/*.scroller-NXV0-d {
+    padding-bottom: 20px;
+    background: rgba(0,0,0,0.4);
+}*/
+
+/*.scroller-kQBbkU, .auto-2K3UW5, .scrollerBase-_bVAAt, .disableScrollAnchor-6TwzvM, .managedReactiveScroller-1lEEh3{
+
+
+
+
+.peopleList-2VBrVI::-webkit-scrollbar{
+    background: #ffff00;
+
+}}*/
+/*Aqui é a cor da onde fica aquelas setinhas da barra de rolagem*/
+/*.scroller-kQBbkU::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 7px;
+    border-color: #FF0000;
+    background: var(--background-primary);
+
+}
+.scroller-3j5xK2::-webkit-scrollbar-thumb{
+    width: 4px;
+    background: #0000ff;
+    display: flex !important;
+}
+*/
+/*Fundo da barra de rolagems*/
+/*.scrollerBase-_bVAAt::-webkit-scrollbar-track,
+.peopleList-2VBrVI::-webkit-scrollbar-track,
+.scroller-kQBbkU::-webkit-scrollbar-track,
+.scroller-3j5xK2::-webkit-scrollbar-track{
+    max-width: 4px;
+    display: flex !important;
+    background: #080808;
+}*/
+
+
+/*Fundo das barras de rolagem*/
+.scrollerBase-_bVAAt::-webkit-scrollbar-track{
+    width: 4px;
+    background: var(--scroller-track);
+}
+/*"Botão" que roda na barra de rolagem*/
+.scroller-3X7KbA::-webkit-scrollbar-thumb {
+    background: var(--scroller-thumb);
+    border: #0F0F0F !important
+}
+
+.managedReactiveScroller-1lEEh3 {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.disableScrollAnchor-6TwzvM {
+    overflow-anchor: none;
+}
+.scrollerBase-_bVAAt {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+ 
+
+
+
+:root {
+    --font-primary: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-display: Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-code: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+    --font-headline: Ginto Nord,Ginto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-korean: Whitney,"Apple SD Gothic Neo","NanumBarunGothic","\B9D1\C740 \ACE0\B515","Malgun Gothic",Gulim,굴림,Dotum,돋움,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-japanese: Whitney,Hiragino Sans,"\30D2\30E9\30AE\30CE\89D2\30B4 ProN W3","Hiragino Kaku Gothic ProN","\30E1\30A4\30EA\30AA",Meiryo,Osaka,"MS PGothic","Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-chinese-simplified: Whitney,"Microsoft YaHei New",微软雅黑,"Microsoft Yahei","Microsoft JhengHei",宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-chinese-traditional: Whitney,"Microsoft JhengHei",微軟正黑體,"Microsoft JhengHei UI","Microsoft YaHei",微軟雅黑,宋体,SimSun,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+[data-popout-root], html {
+    --brand-experiment-100: hsl(240,calc(var(--saturation-factor, 1)*77.8%),98.2%);
+    --brand-experiment-130: hsl(236,calc(var(--saturation-factor, 1)*87.5%),96.9%);
+    --brand-experiment-160: hsl(235,calc(var(--saturation-factor, 1)*84.6%),94.9%);
+    --brand-experiment-200: hsl(236,calc(var(--saturation-factor, 1)*83.3%),92.9%);
+    --brand-experiment-230: hsl(236,calc(var(--saturation-factor, 1)*87%),91%);
+    --brand-experiment-260: hsl(235,calc(var(--saturation-factor, 1)*86.2%),88.6%);
+    --brand-experiment-300: hsl(235,calc(var(--saturation-factor, 1)*86.1%),85.9%);
+    --brand-experiment-330: hsl(235,calc(var(--saturation-factor, 1)*85.1%),81.6%);
+    --brand-experiment-360: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
+    --brand-experiment-400: hsl(235,calc(var(--saturation-factor, 1)*86.1%),71.8%);
+    --brand-experiment-430: hsl(235,calc(var(--saturation-factor, 1)*85.7%),69.8%);
+    --brand-experiment-460: hsl(235,calc(var(--saturation-factor, 1)*85.5%),67.5%);
+    --brand-experiment: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%);
+    --brand-experiment-500: hsl(235,calc(var(--saturation-factor, 1)*85.6%),64.7%);
+    --brand-experiment-530: hsl(235,calc(var(--saturation-factor, 1)*66.7%),58.8%);
+    --brand-experiment-560: hsl(235,calc(var(--saturation-factor, 1)*51.4%),52.4%);
+    --brand-experiment-600: hsl(235,calc(var(--saturation-factor, 1)*46.7%),44.1%);
+    --brand-experiment-630: hsl(235,calc(var(--saturation-factor, 1)*46.7%),38.2%);
+    --brand-experiment-660: hsl(235,calc(var(--saturation-factor, 1)*47.1%),33.3%);
+    --brand-experiment-700: hsl(235,calc(var(--saturation-factor, 1)*47%),25.9%);
+    --brand-experiment-730: hsl(235,calc(var(--saturation-factor, 1)*46.8%),24.3%);
+    --brand-experiment-760: hsl(234,calc(var(--saturation-factor, 1)*46.9%),22.2%);
+    --brand-experiment-800: hsl(235,calc(var(--saturation-factor, 1)*47.5%),19.4%);
+    --brand-experiment-830: hsl(235,calc(var(--saturation-factor, 1)*47.4%),14.9%);
+    --brand-experiment-860: hsl(235,calc(var(--saturation-factor, 1)*46.9%),9.6%);
+    --brand-experiment-900: hsl(233,calc(var(--saturation-factor, 1)*50%),3.1%);
+    --brand-experiment-05a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.05);
+    --brand-experiment-10a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.1);
+    --brand-experiment-15a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.15);
+    --brand-experiment-20a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.2);
+    --brand-experiment-25a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.25);
+    --brand-experiment-30a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.3);
+    --brand-experiment-35a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.35);
+    --brand-experiment-40a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.4);
+    --brand-experiment-45a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.45);
+    --brand-experiment-50a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.5);
+    --brand-experiment-55a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.55);
+    --brand-experiment-60a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.6);
+    --brand-experiment-65a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.65);
+    --brand-experiment-70a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.7);
+    --brand-experiment-75a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.75);
+    --brand-experiment-80a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.8);
+    --brand-experiment-85a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.85);
+    --brand-experiment-90a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.9);
+    --brand-experiment-95a: hsla(235,calc(var(--saturation-factor, 1)*85.6%),64.7%,0.95);
+} 
