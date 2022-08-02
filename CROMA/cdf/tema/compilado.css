@@ -2,7 +2,7 @@
     --background-primary: rgb(10, 10, 10);
     --background-secondary: rgb(20, 20, 20);
     --background-secondary-alt: rgb(22, 22, 22);
-    --background-tertiary: rgb(10, 10, 10);
+    --background-tertiary: rgb(0, 0, 0);
     --background-floating: rgb(12, 12, 12);
     --background-accent: var(--background-secondary-alt);
     --channeltextarea-background: rgb(15, 15, 15);
@@ -536,8 +536,9 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color:  var(--background-primary);
 }
 
+/* Quando passar o mouse por cima da mensagem */
 #app-mount .messageListItem-ZZ7v6g:hover {
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: rgba(255, 255, 255, 0.01);
 }
 #app-mount .wrapperAudio-1Bzv_Z,
 #app-mount .textContainer-36wgKK,
