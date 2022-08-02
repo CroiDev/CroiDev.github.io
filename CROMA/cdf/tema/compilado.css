@@ -1057,16 +1057,16 @@ code {
       100%  {color: #ff0000}
   }
 
-.editor-H2NA06 {
+/* .editor-H2NA06 {
     border: solid 1px !important;
-    animation: SinAma 5s linear 0s infinite alternate !important; /*SinAma == Sinalização Amarela*/
-    }
-    @keyframes SinAma {
+    animation: SinAma 5s linear 0s infinite alternate !important; 
+    }*/ /*SinAma == Sinalização Amarela */
+    /* @keyframes SinAma {
         0%    {color: #F0E68C}
         25%   {color: #FFFF00}
         50%   {color: #FFD700}
         100%   {color: #ffbf00}
-    }
+    } */
 /* -------------------------------------------- */
   /* FUNDO DA SELEÇÃO DE TEXTO */
 ::selection {
