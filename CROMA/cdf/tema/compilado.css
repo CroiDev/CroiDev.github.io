@@ -13,6 +13,13 @@ Azul 5865F2 🟦
 
 
 :root {
+
+    --cor-dc-amarelo: #FEE75C;
+    --cor-dc-vermelho: #ED4245;
+    --cor-dc-verde: #57F287;
+    --cor-dc-azul: #5865F2; 
+
+
     --background-primary: #0A0A0A;
     --background-secondary: #141414;
     --background-secondary-alt: rgb(22, 22, 22);
@@ -28,8 +35,7 @@ Azul 5865F2 🟦
     --header-secondary: #b9bbbe;
     --activity-card-background: var(--background-secondary);
     
-    --text-normal: #dcddde;
-    --text-muted: #969696;
+    
 
     --scroller-thumb: #1E1E1E;
     --scroller-track: #0A0A0A;
@@ -40,9 +46,18 @@ Azul 5865F2 🟦
     --background-modifier-selected: var(--background-secondary);
     --background-modifier-accent: rgba(255, 255, 255, 0.06);
 
-    --text-link: #5865F2;
+    --text-link: var(--cor-dc-azul);
+    --text-normal: #dcddde;
+    --text-muted: #969696;
+    --text-positive: var(--cor-dc-verde);
+    --text-color: #EEE;
 
     --interactive-muted: rgb(75, 75, 75);
+    
+    --spotify-color: #00D65D;
+    --spotify-bg: linear-gradient(320deg, hsl(146deg 100% 42%) 0%, hsl(147deg 98% 43%) 9%, hsl(147deg 96% 43%) 17%, hsl(148deg 95% 44%) 26%, hsl(149deg 94% 44%) 35%, hsl(150deg 93% 44%) 43%, hsl(152deg 93% 44%) 52%, hsl(153deg 94% 44%) 61%, hsl(154deg 95% 44%) 70%, hsl(155deg 96% 43%) 79%, hsl(156deg 98% 43%) 89%, hsl(158deg 100% 42%) 100%);
+    --spotify-bg-alt: #02D983;
+
     --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2), 0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
     --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
 
