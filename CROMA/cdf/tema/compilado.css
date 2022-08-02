@@ -964,3 +964,20 @@ body #app-mount .theme-light .root-g14mjS .input-m1-Y7Q {
 .theme-light #app-mount .sidebar-1tnWFu {
     border-radius: 0;
 }
+
+/*borda da area de enviar mensagens arcoiris*/
+.scrollableContainer-15eg7h {
+    border: solid 1px !important;
+    animation: rainbow 5s linear 0s infinite normal !important;
+  }
+  @keyframes rainbow {
+      0%    {color: #ff0000}
+      12%   {color: #ffbf00}
+      25%   {color: #80ff00}
+      37%   {color: #00ff40}
+      50%   {color: #00ffff}
+      62%   {color: #0040ff}
+      75%   {color: #8000ff}
+      87%   {color: #eb34bd}
+      100%  {color: #ff0000}
+  }
