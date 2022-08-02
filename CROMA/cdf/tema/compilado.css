@@ -19,7 +19,18 @@ Azul 5865F2 🟦
     --cor-dc-verde: #57F287;
     --cor-dc-azul: #5865F2; 
 
+    /* -------------------------------------------- */
+    /* FONTES */
+     /* Bate-papo, canais, etc... */
+    /* --font-primary: sans-serif; */
 
+      /* Servidor/canal/cargos/etc*/
+    /* --font-display: sans-serif; */
+
+      /* Blocos de código */
+    /* --font-code: "Fira Code", sans-serif; */
+
+    /* -------------------------------------------- */
     --background-primary: #0A0A0A;
     --background-secondary: #141414;
     --background-secondary-alt: #161616;
@@ -35,8 +46,6 @@ Azul 5865F2 🟦
     --header-secondary: #b9bbbe;
     --activity-card-background: var(--background-secondary);
     --searcharea-background: var(--background-secondary);
-    
-    
 
     --scroller-thumb: #1E1E1E;
     --scroller-track: #0A0A0A;
