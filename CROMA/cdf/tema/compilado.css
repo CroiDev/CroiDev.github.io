@@ -22,18 +22,19 @@ Azul 5865F2 🟦
 
     --background-primary: #0A0A0A;
     --background-secondary: #141414;
-    --background-secondary-alt: rgb(22, 22, 22);
+    --background-secondary-alt: #161616;
     --background-tertiary: #000000;
     --background-floating: #0C0C0C;
     --background-accent: var(--background-secondary-alt);
 
-    --channeltextarea-background: #0F0F0F;
-    --searcharea-background: var(--background-secondary);
+    --channeltextarea-background: var(--background-secondary);
     --channels-default: #8b8b8b;  
-    
+    --channeltextarea-caret: var(--cor-dc-azul);
+
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
     --activity-card-background: var(--background-secondary);
+    --searcharea-background: var(--background-secondary);
     
     
 
@@ -57,6 +58,16 @@ Azul 5865F2 🟦
     --spotify-color: #00D65D;
     --spotify-bg: linear-gradient(320deg, hsl(146deg 100% 42%) 0%, hsl(147deg 98% 43%) 9%, hsl(147deg 96% 43%) 17%, hsl(148deg 95% 44%) 26%, hsl(149deg 94% 44%) 35%, hsl(150deg 93% 44%) 43%, hsl(152deg 93% 44%) 52%, hsl(153deg 94% 44%) 61%, hsl(154deg 95% 44%) 70%, hsl(155deg 96% 43%) 79%, hsl(156deg 98% 43%) 89%, hsl(158deg 100% 42%) 100%);
     --spotify-bg-alt: #02D983;
+
+    --twitch-bg: linear-gradient(90deg, rgba(105, 2, 244, 1) 0%, rgba(208, 3, 255, 1) 100%);
+    --xbox-bg: linear-gradient(90deg, rgba(0, 172, 65, 1) 0%, rgba(124, 203, 48, 1) 100%);
+    
+
+    --toast-background: var(--background-secondary);
+    --toast-header: var(--background-primary);
+    --toast-contents: var(--background-secondary-alt);
+    --toast-box-shadow: rgba(0, 0, 0, 0.2);
+    --toast-border: rgba(30, 34, 40, 0.6);
 
     --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2), 0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
     --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
