@@ -1062,13 +1062,10 @@ code {
     animation: SinAma 5s linear 0s infinite normal !important; /*SinAma == Sinalização Amarela*/
     }
     @keyframes SinAma {
-        0%    {color: #FFFF00}
-        20%   {color: #ffbf00}
-        35%   {color: #FFD700}
-        50%   {color: #F0E68C}
-        65%   {color: #FFA500}
-        80%   {color: #FFD700}
-        100%  {color: #FFFF00}
+        0%   {color: #F0E68C}
+        25%  {color: #FFFF00}
+        50%   {color: #FFD700}
+        100%   {color: #ffbf00}
     }
 /* -------------------------------------------- */
   /* FUNDO DA SELEÇÃO DE TEXTO */
