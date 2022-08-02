@@ -2,6 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;600;700&display=swap');
 @import url("https://dev-cats.github.io/code-snippets/JetBrainsMono.css");
 
+
+/* 
+# CORES DO DISCORD
+Verde 57F287 🟩 
+Amarelo FEE75C 🟨 
+Vermelho ED4245 🟥 
+Azul 5865F2 🟦 
+*/
+
+
 :root {
     --background-primary: rgb(10, 10, 10);
     --background-secondary: rgb(20, 20, 20);
@@ -970,6 +980,13 @@ body #app-mount .theme-light .root-g14mjS .input-m1-Y7Q {
     border-radius: 0;
 }
 
+/* BLOCO DE CÓDIGO */
+code {
+    font-family: 'Fira Code', 'JetBrains Mono';
+    -webkit-font-feature-settings: "liga"on, "calt"on;
+    text-rendering: optimizeLegibility;
+}
+
 /*borda da area de enviar mensagens arcoiris*/
 .scrollableContainer-15eg7h {
     border: solid 1px !important;
@@ -986,3 +1003,10 @@ body #app-mount .theme-light .root-g14mjS .input-m1-Y7Q {
       87%   {color: #eb34bd}
       100%  {color: #ff0000}
   }
+
+
+  /* FUNDO DA SELEÇÃO DE TEXTO */
+::selection {
+    background-color: rgba(88, 101, 242, 0.7) !important;
+    color: #fff !important;
+}
