@@ -418,7 +418,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
 
 .theme-dark #app-mount::after {
     content: "Este tema NÃO deve ser usado no modo escuro. Por favor, mude para o modo claro em Configurações -> Aparência.";
-    position: absolute;
+    position: absolute !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -908,7 +908,7 @@ body #app-mount .theme-light .root-g14mjS .input-m1-Y7Q {
 
 .theme-dark #app-mount::after {
     content: "Este tema NÃO deve ser usado no modo escuro. Por favor, mude para o modo claro em Configurações -> Aparência.";
-    position: absolute;
+    position: absolute !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
