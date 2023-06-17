@@ -1,17 +1,17 @@
 :root {
-    --background-primary: rgb(10, 10, 10);
-    --background-secondary: rgb(20, 20, 20);
-    --background-secondary-alt: rgb(22, 22, 22);
-    --background-tertiary: rgb(10, 10, 10);
-    --background-floating: rgb(12, 12, 12);
+    --background-primary: rgb(230, 230, 230);
+    --background-secondary: rgb(220, 220, 220);
+    --background-secondary-alt: rgb(240, 240, 240);
+    --background-tertiary: rgb(200, 200, 200);
+    --background-floating: rgb(210, 210, 210);
     --background-accent: var(--background-secondary-alt);
-    --channeltextarea-background: rgb(15, 15, 15);
+    --channeltextarea-background: rgb(215, 215, 215);
     --searcharea-background: var(--background-secondary);
-    --channels-default: #8b8b8b;  
-    --header-primary: #fff;
-    --header-secondary: #b9bbbe;
-    --text-normal: #dcddde;
-    --text-muted: #969696;
+    --channels-default: #333333;  
+    --header-primary: #000;
+    --header-secondary: #222;
+    --text-normal: #111;
+    --text-muted: #2A2A2A;
     --scroller-thumb: rgb(30, 30, 30);
     --scroller-track: rgb(10, 10, 10);
     --background-modifier-rgb: 60, 60, 60;
