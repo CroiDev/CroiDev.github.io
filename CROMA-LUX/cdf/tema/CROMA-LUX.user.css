@@ -1,0 +1,11 @@
+@-moz-document domain("discord.com") {
+    /* ==UserStyle==
+    @name         CROMA LUX
+    @description  Um tema simples e estiloso.
+    @author       Croi
+    @namespace    github.com/CroiDev/CROMA-LUX
+    @version      1.0.0
+    ==/UserStyle== */
+
+    @import url("https://croidev.github.io/CROMA-LUX/cdf/tema/compilado.css");
+}

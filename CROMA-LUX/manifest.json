@@ -1,0 +1,9 @@
+{
+    "name": "CROMA-LUX",
+    "description": "Um tema simples e estiloso.",
+    "version": "1.0.0",
+    "author": "Croi",
+    "theme": "/cdf/_index.scss",
+    "consent": "true",
+    "license": "MIT"
+}
