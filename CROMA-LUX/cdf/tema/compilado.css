@@ -981,3 +981,8 @@ body #app-mount .theme-light .root-g14mjS .input-m1-Y7Q {
       87%   {color: #eb34bd}
       100%  {color: #ff0000}
   }
+
+/* botões de atividades e tals quando em ligação */
+  #app-mount .button-1EGGcP.buttonColor-3bP3fX, #app-mount .button-1EGGcP .buttonColor-3bP3fX, #app-mount .lookFilled-yCfaCM.colorGrey-2iAG-B, #app-mount .lookFilled-yCfaCM.colorPrimary-2AuQVo {
+    background-color: #D4D4D4;
+}
