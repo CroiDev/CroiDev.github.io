@@ -1,27 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500;600;700&display=swap');
+@import url("https://dev-cats.github.io/code-snippets/JetBrainsMono.css");
+
+
+/* 
+# CORES DO DISCORD
+Verde 57F287 🟩 
+Amarelo FEE75C 🟨 
+Vermelho ED4245 🟥 
+Azul 5865F2 🟦 
+*/
+
+
 :root {
-    --background-primary: rgb(230, 230, 230);
-    --background-secondary: rgb(220, 220, 220);
-    --background-secondary-alt: rgb(240, 240, 240);
-    --background-tertiary: rgb(200, 200, 200);
-    --background-floating: rgb(210, 210, 210);
+
+    --cor-dc-amarelo: #FEE75C;
+    --cor-dc-vermelho: #ED4245;
+    --cor-dc-verde: #57F287;
+    --cor-dc-azul: #5865F2; 
+
+    /* -------------------------------------------- */
+    /* FONTES */
+     /* Bate-papo, canais, etc... */
+    /* --font-primary: sans-serif; */
+
+      /* Servidor/canal/cargos/etc*/
+    /* --font-display: sans-serif; */
+
+      /* Blocos de código */
+    /* --font-code: "Fira Code", sans-serif; */
+
+    /* -------------------------------------------- */
+    --background-primary: #0A0A0A;
+    --background-secondary: #141414;
+    --background-secondary-alt: #161616;
+    --background-tertiary: #000000;
+    --background-floating: #0C0C0C;
     --background-accent: var(--background-secondary-alt);
-    --channeltextarea-background: rgb(215, 215, 215);
+
+    --channeltextarea-background: var(--background-secondary);
+    --channels-default: #8b8b8b;  
+    --channeltextarea-caret: var(--cor-dc-azul);
+
+    --header-primary: #fff;
+    --header-secondary: #b9bbbe;
+    --activity-card-background: var(--background-secondary);
     --searcharea-background: var(--background-secondary);
-    --channels-default: #333333;  
-    --header-primary: #000;
-    --header-secondary: #222;
-    --text-normal: #111;
-    --text-muted: #2A2A2A;
-    --scroller-thumb: rgb(30, 30, 30);
-    --scroller-track: rgb(10, 10, 10);
+
+    --scroller-thumb: #1E1E1E;
+    --scroller-track: #0A0A0A;
+
     --background-modifier-rgb: 60, 60, 60;
-    --background-modifier-hover: rgba(var(--background-modifier-rgb), 0.16);
-    --background-modifier-active: rgba(var(--background-modifier-rgb), 0.24);
-    --background-modifier-selected: rgba(var(--background-modifier-rgb), 0.32);
+    --background-modifier-hover: var(--background-secondary);
+    --background-modifier-active: var(--background-secondary);
+    --background-modifier-selected: var(--background-secondary);
     --background-modifier-accent: rgba(255, 255, 255, 0.06);
+
+    --text-link: var(--cor-dc-azul);
+    --text-normal: #dcddde;
+    --text-muted: #969696;
+    --text-positive: var(--cor-dc-verde);
+    --text-color: #EEE;
+
     --interactive-muted: rgb(75, 75, 75);
+    
+    --spotify-color: #00D65D;
+    --spotify-bg: linear-gradient(320deg, hsl(146deg 100% 42%) 0%, hsl(147deg 98% 43%) 9%, hsl(147deg 96% 43%) 17%, hsl(148deg 95% 44%) 26%, hsl(149deg 94% 44%) 35%, hsl(150deg 93% 44%) 43%, hsl(152deg 93% 44%) 52%, hsl(153deg 94% 44%) 61%, hsl(154deg 95% 44%) 70%, hsl(155deg 96% 43%) 79%, hsl(156deg 98% 43%) 89%, hsl(158deg 100% 42%) 100%);
+    --spotify-bg-alt: #02D983;
+
+    --twitch-bg: linear-gradient(90deg, rgba(105, 2, 244, 1) 0%, rgba(208, 3, 255, 1) 100%);
+    --xbox-bg: linear-gradient(90deg, rgba(0, 172, 65, 1) 0%, rgba(124, 203, 48, 1) 100%);
+    
+
+    --toast-background: var(--background-secondary);
+    --toast-header: var(--background-primary);
+    --toast-contents: var(--background-secondary-alt);
+    --toast-box-shadow: rgba(0, 0, 0, 0.2);
+    --toast-border: rgba(30, 34, 40, 0.6);
+
     --elevation-low: 0 1px 0 rgba(40, 40, 50, 0.2), 0 1.5px 0 rgba(60, 60, 70, 0.05), 0 2px 0 rgba(40, 40, 50, 0.05);
     --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+
+
+
+    --blurple-bg: linear-gradient(90deg, rgba(107, 105, 255, 1) 0%, rgba(131, 129, 254, 1) 100%);
+    --blurple-bg-alt: #6C6AFF;
+  
+    --red-bg: linear-gradient(90deg, rgba(243, 30, 38, 1) 0%, rgba(251, 64, 64, 1) 100%);
+    --red-bg-alt: #F42028;
+
 }
 
 #app-mount .layer-86YKbF .cardFolder-3H4uH4 {
@@ -416,9 +483,9 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     font-weight: bold;
 }
 
-.theme-dark #app-mount::after {
-    content: "Este tema NÃO deve ser usado no modo escuro. Por favor, mude para o modo claro em Configurações -> Aparência.";
-    position: absolute !important;
+.theme-light #app-mount::after {
+    content: "Este tema NÃO deve ser usado no modo claro. Por favor, mude para o modo escuro em Configurações -> Aparência.";
+    position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -438,40 +505,40 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     color: white;
     background-color: #ed4245;
 }
-.theme-dark #app-mount .container-YkUktl .flex-2S1XBF .button-12Fmur:last-child {
+.theme-light #app-mount .container-YkUktl .flex-2S1XBF .button-12Fmur:last-child {
     -webkit-animation: flash 1s ease infinite;
             animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245;
 }
-.theme-dark #app-mount #user-settings-cog-Appearance {
+.theme-light #app-mount #user-settings-cog-Appearance {
     -webkit-animation: flash 1s ease infinite;
             animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
-.theme-dark #app-mount [aria-activedescendant^=user-settings-cog-Appearance] #user-settings-cog-Appearance--light {
+.theme-light #app-mount [aria-activedescendant^=user-settings-cog-Appearance] #user-settings-cog-Appearance--dark {
     -webkit-animation: flash 1s ease infinite;
             animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
-.theme-dark #app-mount [aria-controls=appearance-tab] {
+.theme-light #app-mount [aria-controls=appearance-tab] {
     -webkit-animation: flash 1s ease infinite;
             animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
-.theme-dark #app-mount [aria-label=USER_SETTINGS] [tabindex="-1"] + [class=marginTop40-Q4o1tS] .item-2idW98:nth-of-type(1) {
+.theme-light #app-mount [aria-label=USER_SETTINGS] [tabindex="-1"] + [class=marginTop40-Q4o1tS] .item-2idW98:nth-of-type(1) {
     -webkit-animation: flash 1s ease infinite;
             animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
-.theme-dark #app-mount .base-2jDfDU {
+.theme-light #app-mount .base-2jDfDU {
     margin-top: 36px;
 }
-.theme-dark #app-mount .sidebar-1tnWFu {
+.theme-light #app-mount .sidebar-1tnWFu {
     border-radius: 0;
 }
 
@@ -536,8 +603,9 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color:  var(--background-primary);
 }
 
+/* Quando passar o mouse por cima da mensagem */
 #app-mount .messageListItem-ZZ7v6g:hover {
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: rgba(255, 255, 255, 0.01);
 }
 #app-mount .wrapperAudio-1Bzv_Z,
 #app-mount .textContainer-36wgKK,
@@ -906,9 +974,9 @@ body #app-mount .theme-light .root-g14mjS .input-m1-Y7Q {
 }
 
 
-.theme-dark #app-mount::after {
-    content: "Este tema NÃO deve ser usado no modo escuro. Por favor, mude para o modo claro em Configurações -> Aparência.";
-    position: absolute !important;
+.theme-light #app-mount::after {
+    content: "Este tema NÃO deve ser usado no modo claro. Por favor, mude para o modo escuro em Configurações -> Aparência.";
+    position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -928,43 +996,50 @@ body #app-mount .theme-light .root-g14mjS .input-m1-Y7Q {
     color: white;
     background-color: #ed4245;
 }
-.theme-dark #app-mount .container-YkUktl .flex-2S1XBF .button-12Fmur:last-child {
+.theme-light #app-mount .container-YkUktl .flex-2S1XBF .button-12Fmur:last-child {
     -webkit-animation: flash 1s ease infinite;
             animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245;
 }
-.theme-dark #app-mount #user-settings-cog-Appearance {
+.theme-light #app-mount #user-settings-cog-Appearance {
     -webkit-animation: flash 1s ease infinite;
             animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
-.theme-dark #app-mount [aria-activedescendant^=user-settings-cog-Appearance] #user-settings-cog-Appearance--light {
+.theme-light #app-mount [aria-activedescendant^=user-settings-cog-Appearance] #user-settings-cog-Appearance--dark {
     -webkit-animation: flash 1s ease infinite;
             animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
-.theme-dark #app-mount [aria-controls=appearance-tab] {
+.theme-light #app-mount [aria-controls=appearance-tab] {
     -webkit-animation: flash 1s ease infinite;
             animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
-.theme-dark #app-mount [aria-label=USER_SETTINGS] [tabindex="-1"] + [class=marginTop40-Q4o1tS] .item-2idW98:nth-of-type(1) {
+.theme-light #app-mount [aria-label=USER_SETTINGS] [tabindex="-1"] + [class=marginTop40-Q4o1tS] .item-2idW98:nth-of-type(1) {
     -webkit-animation: flash 1s ease infinite;
             animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
-.theme-dark #app-mount .base-2jDfDU {
+.theme-light #app-mount .base-2jDfDU {
     margin-top: 36px;
 }
-.theme-dark #app-mount .sidebar-1tnWFu {
+.theme-light #app-mount .sidebar-1tnWFu {
     border-radius: 0;
 }
 
+/* BLOCO DE CÓDIGO */
+code {
+    font-family: 'Fira Code', 'JetBrains Mono';
+    -webkit-font-feature-settings: "liga"on, "calt"on;
+    text-rendering: optimizeLegibility;
+}
+/* -------------------------------------------- */s
 /*borda da area de enviar mensagens arcoiris*/
 .scrollableContainer-15eg7h {
     border: solid 1px !important;
@@ -982,7 +1057,84 @@ body #app-mount .theme-light .root-g14mjS .input-m1-Y7Q {
       100%  {color: #ff0000}
   }
 
-/* botões de atividades e tals quando em ligação */
-  #app-mount .button-1EGGcP.buttonColor-3bP3fX, #app-mount .button-1EGGcP .buttonColor-3bP3fX, #app-mount .lookFilled-yCfaCM.colorGrey-2iAG-B, #app-mount .lookFilled-yCfaCM.colorPrimary-2AuQVo {
-    background-color: #D4D4D4;
+/* .editor-H2NA06 {
+    border: solid 1px !important;
+    animation: SinAma 5s linear 0s infinite alternate !important; 
+    }*/ /*SinAma == Sinalização Amarela */
+    /* @keyframes SinAma {
+        0%    {color: #F0E68C}
+        25%   {color: #FFFF00}
+        50%   {color: #FFD700}
+        100%   {color: #ffbf00}
+    } */
+/* -------------------------------------------- */
+  /* FUNDO DA SELEÇÃO DE TEXTO */
+::selection {
+    font-size: 13px;
+    background-color: rgba(88, 101, 242, 0.7) !important;
+    color: #fff !important;
 }
+/* -------------------------------------------- */
+/* Convidar para jogo/atividade (Exemplo convite para escutar junto no Spotify)*/
+
+.invite-3uuHYQ {
+    background: var(--background-secondary) !important;
+    border-color: var(--background-secondary) !important;    
+}
+
+.invite-3uuHYQ .header-1Fx4D1{
+    color: #ddd;
+}
+
+.invite-3uuHYQ [href="https://support.discord.com/hc/pt-br/articles/360000167212"],
+.helpIcon-24pk1Z {
+     display: none;
+     opacity: 0;
+     cursor: default;
+}
+
+.coverImageWrapper-2wx5q1 {
+   pointer-events: none;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   z-index: 0;
+   width: 100%;
+   height: 100%;
+   max-width: 100% !important;
+   opacity: 1;
+   border-radius: 0 5px 5px 0;
+   overflow: hidden;
+}
+
+.coverImageActionable-38UjN9.blurred-3p_Z84 {
+   -webkit-filter: blur(4px);
+   filter: blur(4px);   
+}
+
+.artwork-28Cmnt {
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 10px 6px rgba(0,0,0,0.25);
+}
+
+.partyMembers-3cd-7x {
+     padding: 5px;
+     background-color: var(--background-primary);
+     border-radius: 10px;
+}
+/* -------------------------------------------- */
+/* Texto editado */
+.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
+    content: " (" attr(aria-label) ")";
+  color: var(--text-muted);
+  font-size: 0.625rem;
+      font-weight: 400;
+      line-height: 1;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+  text-transform: lowercase;
+}
+/* -------------------------------------------- */
