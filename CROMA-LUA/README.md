@@ -1,4 +1,4 @@
-# CROMA LUX
+# CROMA LUA
 
 Um tema simples e estiloso que vai deixar seu Discord encatandaor.
 ![capa](https://github.com/CroiDev/CROMA-LUX/blob/main/ativos/CROMA-LUX.gif) 
