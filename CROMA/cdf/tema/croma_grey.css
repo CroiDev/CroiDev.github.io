@@ -35,10 +35,10 @@ Azul 5865F2 🟦
     --background-modifier-accent: rgba(255, 255, 255, 0.06);
 
     --text-link: var(--cor-dc-azul);
-    --text-normal: #dcddde;
-    --text-muted: #969696;
+    --text-normal: #222;
+    --text-muted: #333;
     --text-positive: var(--cor-dc-verde);
-    --text-color: #EEE;
+    --text-color: #111;
 
     --interactive-muted: rgb(75, 75, 75);
     
