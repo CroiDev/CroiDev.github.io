@@ -17,7 +17,7 @@ Azul 5865F2 🟦
     --background-accent: var(--background-secondary-alt);
 
     --channeltextarea-background: var(--background-secondary);
-    --channels-default: #8b8b8b;  
+    --channels-default: #222;  
     --channeltextarea-caret: var(--cor-dc-azul);
 
     --header-primary: #fff;
@@ -32,7 +32,7 @@ Azul 5865F2 🟦
     --background-modifier-hover: var(--background-secondary);
     --background-modifier-active: var(--background-secondary);
     --background-modifier-selected: var(--background-secondary);
-    --background-modifier-accent: rgba(255, 255, 255, 0.06);
+    --background-modifier-accent: rgba(255, 255, 255, 0.3);
 
     --text-link: var(--cor-dc-azul);
     --text-normal: #111;
@@ -40,7 +40,7 @@ Azul 5865F2 🟦
     --text-positive: var(--cor-dc-verde);
     --text-color: #000;
 
-    --interactive-muted: rgb(75, 75, 75);
+    --interactive-muted: rgb(175, 175, 175);
     
     --spotify-color: #00D65D;
     --spotify-bg: linear-gradient(320deg, hsl(146deg 100% 42%) 0%, hsl(147deg 98% 43%) 9%, hsl(147deg 96% 43%) 17%, hsl(148deg 95% 44%) 26%, hsl(149deg 94% 44%) 35%, hsl(150deg 93% 44%) 43%, hsl(152deg 93% 44%) 52%, hsl(153deg 94% 44%) 61%, hsl(154deg 95% 44%) 70%, hsl(155deg 96% 43%) 79%, hsl(156deg 98% 43%) 89%, hsl(158deg 100% 42%) 100%);
