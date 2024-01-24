@@ -461,7 +461,7 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     font-weight: bold;
 }
 
-.theme-light #app-mount::after {
+.theme-dark #app-mount::after {
     content: "Este tema NÃO deve ser usado com o tema claro. Por favor, mude para o tema escuro em Configurações -> Aparência.";
     position: absolute;
     display: -webkit-box;
@@ -483,40 +483,40 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     color: white;
     background-color: #ed4245;
 }
-.theme-light #app-mount .container-YkUktl .flex-2S1XBF .button-12Fmur:last-child {
+.theme-dark #app-mount .container-YkUktl .flex-2S1XBF .button-12Fmur:last-child {
     -webkit-animation: flash 1s ease infinite;
             animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245;
 }
-.theme-light #app-mount #user-settings-cog-Appearance {
+.theme-dark #app-mount #user-settings-cog-Appearance {
     -webkit-animation: flash 1s ease infinite;
             animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
-.theme-light #app-mount [aria-activedescendant^=user-settings-cog-Appearance] #user-settings-cog-Appearance--dark {
+.theme-dark #app-mount [aria-activedescendant^=user-settings-cog-Appearance] #user-settings-cog-Appearance--dark {
     -webkit-animation: flash 1s ease infinite;
             animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
-.theme-light #app-mount [aria-controls=appearance-tab] {
+.theme-dark #app-mount [aria-controls=appearance-tab] {
     -webkit-animation: flash 1s ease infinite;
             animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
-.theme-light #app-mount [aria-label=USER_SETTINGS] [tabindex="-1"] + [class=marginTop40-Q4o1tS] .item-2idW98:nth-of-type(1) {
+.theme-dark #app-mount [aria-label=USER_SETTINGS] [tabindex="-1"] + [class=marginTop40-Q4o1tS] .item-2idW98:nth-of-type(1) {
     -webkit-animation: flash 1s ease infinite;
             animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
-.theme-light #app-mount .base-2jDfDU {
+.theme-dark #app-mount .base-2jDfDU {
     margin-top: 36px;
 }
-.theme-light #app-mount .sidebar-1tnWFu {
+.theme-dark #app-mount .sidebar-1tnWFu {
     border-radius: 0;
 }
 
@@ -679,33 +679,33 @@ base0F  #deaf8f  Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php 
     background-color: var(--background-tertiary);
 }
 
-body #app-mount .theme-light .root-g14mjS {
+body #app-mount .theme-dark .root-g14mjS {
     --header-primary: #fff;
     --header-secondary: #b9bbbe;
     --text-normal: #dcddde;
     --text-muted: #969696;
     background-color: #141414;
 }
-body #app-mount .theme-light .root-g14mjS .footer-31IekZ {
+body #app-mount .theme-dark .root-g14mjS .footer-31IekZ {
     -webkit-box-shadow: none;
             box-shadow: none;
     background-color: #0a0a0a;
 }
-body #app-mount .theme-light .root-g14mjS .container-x8Y1ix,
-body #app-mount .theme-light .root-g14mjS .rowContainer-3t7486 {
+body #app-mount .theme-dark .root-g14mjS .container-x8Y1ix,
+body #app-mount .theme-dark .root-g14mjS .rowContainer-3t7486 {
     background-color: black;
 }
-body #app-mount .theme-light .root-g14mjS .container-x8Y1ix:hover,
-body #app-mount .theme-light .root-g14mjS .rowContainer-3t7486:hover {
+body #app-mount .theme-dark .root-g14mjS .container-x8Y1ix:hover,
+body #app-mount .theme-dark .root-g14mjS .rowContainer-3t7486:hover {
     background-color: #1c1c1c;
 }
-body #app-mount .theme-light .root-g14mjS .formTitle-2YQyhj {
+body #app-mount .theme-dark .root-g14mjS .formTitle-2YQyhj {
     color: var(--header-primary);
 }
-body #app-mount .theme-light .root-g14mjS .sampleLink-5BWNy9 {
+body #app-mount .theme-dark .root-g14mjS .sampleLink-5BWNy9 {
     color: var(--text-muted);
 }
-body #app-mount .theme-light .root-g14mjS .input-m1-Y7Q {
+body #app-mount .theme-dark .root-g14mjS .input-m1-Y7Q {
     background-color: #0a0a0a;
 }
 
@@ -952,7 +952,7 @@ body #app-mount .theme-light .root-g14mjS .input-m1-Y7Q {
 }
 
 
-.theme-light #app-mount::after {
+.theme-dark #app-mount::after {
     content: "Este tema NÃO deve ser usado com o tema claro. Por favor, mude para o tema escuro em Configurações -> Aparência.";
     position: absolute;
     display: -webkit-box;
@@ -974,40 +974,40 @@ body #app-mount .theme-light .root-g14mjS .input-m1-Y7Q {
     color: white;
     background-color: #ed4245;
 }
-.theme-light #app-mount .container-YkUktl .flex-2S1XBF .button-12Fmur:last-child {
+.theme-dark #app-mount .container-YkUktl .flex-2S1XBF .button-12Fmur:last-child {
     -webkit-animation: flash 1s ease infinite;
     animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245;
 }
-.theme-light #app-mount #user-settings-cog-Appearance {
+.theme-dark #app-mount #user-settings-cog-Appearance {
     -webkit-animation: flash 1s ease infinite;
     animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
-.theme-light #app-mount [aria-activedescendant^=user-settings-cog-Appearance] #user-settings-cog-Appearance--dark {
+.theme-dark #app-mount [aria-activedescendant^=user-settings-cog-Appearance] #user-settings-cog-Appearance--dark {
     -webkit-animation: flash 1s ease infinite;
     animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
-.theme-light #app-mount [aria-controls=appearance-tab] {
+.theme-dark #app-mount [aria-controls=appearance-tab] {
     -webkit-animation: flash 1s ease infinite;
     animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
-.theme-light #app-mount [aria-label=USER_SETTINGS] [tabindex="-1"] + [class=marginTop40-Q4o1tS] .item-2idW98:nth-of-type(1) {
+.theme-dark #app-mount [aria-label=USER_SETTINGS] [tabindex="-1"] + [class=marginTop40-Q4o1tS] .item-2idW98:nth-of-type(1) {
     -webkit-animation: flash 1s ease infinite;
     animation: flash 1s ease infinite;
     color: white;
     background-color: #ed4245 !important;
 }
-.theme-light #app-mount .base-2jDfDU {
+.theme-dark #app-mount .base-2jDfDU {
     margin-top: 36px;
 }
-.theme-light #app-mount .sidebar-1tnWFu {
+.theme-dark #app-mount .sidebar-1tnWFu {
     border-radius: 0;
 }
 
