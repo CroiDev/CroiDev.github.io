@@ -13,7 +13,7 @@ Azul 5865F2 🟦
     --background-secondary: #0e0000; /* Tela de carregamento inicial / Lista de membros / Lista de canais */
     --background-secondary-alt: #030000; /* barra com ft do user e butn de status e config de user / outros detalhes*/
     --background-tertiary: #040000; /* Barra da lista de servers / campos de busca */
-    --background-floating: #f830ff; /* ?? */
+    --background-floating: #501b1b; /* ?? */
     --background-accent: var(--background-secondary-alt); /*6*/
 
     --channeltextarea-background: var(--background-secondary);
