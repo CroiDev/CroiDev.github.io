@@ -9,12 +9,12 @@ Azul 5865F2 🟦
 
 :root {
 
-    --background-primary: #0e0000;
-    --background-secondary: #110000;
-    --background-secondary-alt: #020202;
-    --background-tertiary: #000000;
-    --background-floating: #1d0000;
-    --background-accent: var(--background-secondary-alt);
+    --background-primary: #ff6565; /*1*/
+    --background-secondary: #fffb03; /*2*/
+    --background-secondary-alt: #0fff43; /*3*/
+    --background-tertiary: #2e77ff; /*4*/
+    --background-floating: #f830ff; /*5*/
+    --background-accent: var(--background-secondary-alt); /*6*/
 
     --channeltextarea-background: var(--background-secondary);
     --channels-default: #8b8b8b;  
