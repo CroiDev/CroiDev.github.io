@@ -9,8 +9,8 @@ Azul 5865F2 🟦
 
 :root {
 
-    --background-primary: linear-gradient(145deg, #4700a3, #b66c2f); /* parte central, mensagens */
-    --background-secondary: #4700a3; /* Tela de carregamento inicial / Lista de membros / Lista de canais */
+    --background-primary: linear-gradient(145deg, #26124b, #b66c2f); /* parte central, mensagens */
+    --background-secondary: #36007c; /* Tela de carregamento inicial / Lista de membros / Lista de canais */
     --background-secondary-alt: #140024; /* barra com ft do user e butn de status e config de user / outros detalhes*/
     --background-tertiary: #1d003f; /* Barra da lista de servers / campos de busca */
     --background-floating: #311a46; /* ?? */
