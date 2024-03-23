@@ -20,8 +20,8 @@ Azul 5865F2 🟦
     --channels-default: #222;  
     --channeltextarea-caret: var(--cor-dc-azul);
 
-    --header-primary: #fff;
-    --header-secondary: #b9bbbe;
+    --header-primary: #080808;
+    --header-secondary: #131313;
     --activity-card-background: var(--background-secondary);
     --searcharea-background: var(--background-secondary);
 
