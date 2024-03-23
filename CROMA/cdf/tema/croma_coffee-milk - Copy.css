@@ -9,12 +9,12 @@ Azul 5865F2 🟦
 
 :root {
 
-    --background-primary: linear-gradient(145deg #cfcbc9, #695d56); /* parte central, msgs*/
-    --background-secondary: #c0bcb9; /* loadscreen inicial / members list / channels list */
-    --background-secondary-alt: #7e7570; /* barra com ft do user e butn de status e config de user / outros detalhes */
-    --background-tertiary: #aba5a0; /* barra da lista de servidores / campo de busca */
-    --background-floating: #b7b1ae; /* ?? */
-    --background-accent: var(--background-secondary-alt); /* 6 */
+    --background-primary: #cfcbc9;
+    --background-secondary: #9f9893;
+    --background-secondary-alt: #c3bebb;
+    --background-tertiary: #aba5a0;
+    --background-floating: #b7b1ae;
+    --background-accent: var(--background-secondary-alt);
 
     --channeltextarea-background: var(--background-secondary);
     --channels-default: #222;  
