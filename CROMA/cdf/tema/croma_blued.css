@@ -10,9 +10,9 @@ Azul 5865F2 🟦
 :root {
 
     --background-primary: linear-gradient(145deg, #e5f0ff, #abc7f1); /* parte central, msgs*/
-    --background-secondary: #7d95d6; /* loadscreen inicial / members list / channels list */
-    --background-secondary-alt: #425faf; /* barra com ft do user e butn de status e config de user / outros detalhes */
-    --background-tertiary: #526bad; /* barra da lista de servidores / campo de busca */
+    --background-secondary: #a7b7e6; /* loadscreen inicial / members list / channels list */
+    --background-secondary-alt: #7d95d6; /* barra com ft do user e butn de status e config de user / outros detalhes */
+    --background-tertiary: #8599d1; /* barra da lista de servidores / campo de busca */
     --background-floating: #7c90c7; /* ?? */
     --background-accent: var(--background-secondary-alt); /* 6 */
 
