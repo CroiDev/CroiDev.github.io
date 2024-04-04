@@ -9,6 +9,11 @@ Azul 5865F2 🟦
 
 :root {
 
+    --cor-dc-amarelo: #FEE75C;
+    --cor-dc-vermelho: #ED4245;
+    --cor-dc-verde: #57F287;
+    --cor-dc-azul: #5865F2; 
+
     --background-primary: linear-gradient(145deg, #e5f0ff, #abc7f1); /* parte central, msgs*/
     --background-secondary: #a7b7e6; /* loadscreen inicial / members list / channels list */
     --background-secondary-alt: #7d95d6; /* barra com ft do user e butn de status e config de user / outros detalhes */
