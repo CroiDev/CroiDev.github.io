@@ -276,8 +276,10 @@ Azul 5865F2 🟦
 #app-mount .layer-86YKbF .previewMessage-2uxBrA {
     background-color: var(--background-secondary-alt);
 }
+
+/* ICONE DO APP NA BARRA DE LISTA DE SV */
 #app-mount .layer-86YKbF .notches-2w7UZJ.gray-3wP137 {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg height='20' width='8' xmlns='http://www.w3.org/2000/svg' fill='black'%3E%3Cpath d='M0 0h8v20H0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg height='20' width='8' xmlns='http://www.w3.org/2000/svg' fill='white'%3E%3Cpath d='M0 0h8v20H0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 #app-mount .layer-86YKbF .cameraWrapper-1hB0cM {
     border-color: var(--background-secondary);
