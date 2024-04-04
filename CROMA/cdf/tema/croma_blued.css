@@ -15,9 +15,9 @@ Azul 5865F2 🟦
     --cor-dc-azul: #5865F2; 
 
     --background-primary: linear-gradient(145deg, #e5f0ff, #abc7f1); /* parte central, msgs*/
-    --background-secondary: #a7b7e6; /* loadscreen inicial / members list / channels list */
-    --background-secondary-alt: #7d95d6; /* barra com ft do user e butn de status e config de user / outros detalhes */
-    --background-tertiary: #8599d1; /* barra da lista de servidores / campo de busca */
+    --background-secondary: #bed5f8; /* loadscreen inicial / members list / channels list */
+    --background-secondary-alt: #9cb3f1; /* barra com ft do user e butn de status e config de user / outros detalhes */
+    --background-tertiary: #a2b7f0; /* barra da lista de servidores / campo de busca */
     --background-floating: #7c90c7; /* ?? */
     --background-accent: #ff33cc; /* 6 */
 
