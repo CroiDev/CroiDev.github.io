@@ -1,0 +1,12 @@
+    @-moz-document domain("discord.com") {
+    /* ==UserStyle==
+    @name         CROMA FROG
+    @description  A frog theme.
+    @author       Croi
+    @namespace    github.com/CroiDev/CROMA
+    @version      1.2.0
+    ==/UserStyle== */
+
+    @import url("https://croidev.github.io/CROMA/cdf/tema/croma_frog.css");
+}
+
